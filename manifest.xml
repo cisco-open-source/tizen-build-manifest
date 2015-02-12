@@ -23,9 +23,10 @@
   <project groups="common" name="apps/core/preloaded/ug-setting-homescreen-efl" revision="140c4f18f5a998e12e45daaf063bf430eea35c84"/>
   <project groups="common" name="apps/core/preloaded/usb-manager" revision="8f24bc28547f289429f1da5830183ea616c0ca1a"/>
   <project groups="common" name="apps/core/preloaded/usb-syspopup" revision="dd573a0b6de8518bb7cf1e330234e754bddaf3da"/>
+  <project name="ethtool" path="platform/upstream/ethtool" remote="tizen-github" revision="20d4449e2019daa97623cffc2028b3870dfa630e"/>
   <project name="ffmpeg" path="platform/upstream/ffmpeg" remote="tizen-github" revision="e81dd26a670b7e5509c2e2ee7af06edcd4be381d"/>
   <project name="google-roboto-fonts" path="platform/upstream/google-roboto-fonts" remote="tizen-github" revision="efbbc27f83b7a6d1125fc9ea2389d5486b793d61"/>
-  <project name="kodi" path="platform/upstream/kodi" remote="tizen-github" revision="cd089f17a34bf6d6fa365fcd9aa11c1acb1caa3c"/>
+  <project name="kodi" path="platform/upstream/kodi" remote="tizen-github" revision="20c78df853830a32388af9e9925c75e13fa0a115"/>
   <project name="libass" path="platform/upstream/libass" remote="tizen-github" revision="edfda402bbeac53e1440d1e6e293b4f4d1c75fa1"/>
   <project name="libcdio" path="platform/upstream/libcdio" remote="tizen-github" revision="8428d3303693d770b7710749ee087c211cafb930"/>
   <project name="libmicrohttpd" path="platform/upstream/libmicrohttpd" remote="tizen-github" revision="d98d2aa41cc16c55acb0d9bb3113cf622a7fbc40"/>
@@ -126,7 +127,7 @@
   <project groups="common" name="platform/core/location/lbs-dbus" revision="1b3b0537f53d9acf6fe14f12579a0fa3f304be64"/>
   <project groups="common" name="platform/core/location/liblocation-appman" revision="9c5ae69df8adb268504ac86aa5681a4a1ffa6c0a"/>
   <project groups="common" name="platform/core/location/libslp-location" revision="a2e1784f0e79737f53d7dd5afffd22dcca299f7c"/>
-  <project groups="common" name="platform/core/messaging/email-service" revision="f7c34309e930b10c688321330a78a97277aaf7ad"/>
+  <project groups="common" name="platform/core/messaging/email-service" revision="7bce179a26c4066a052542e8a731ed475c428046"/>
   <project groups="common" name="platform/core/messaging/msg-service" revision="445af2ed7969ff19725b62e86ec58568d3be2b03"/>
   <project groups="common" name="platform/core/multimedia/alsa-scenario-0.2" revision="8a7abb902764c6afdd4c3fab4d0ac29716117207"/>
   <project groups="common" name="platform/core/multimedia/audio-session-manager" revision="ee4096c72a636cd1112a62903fefb0432e720bea"/>
@@ -293,7 +294,7 @@
   <project groups="common" name="platform/upstream/ed" revision="2ba5796fce411581d0f0a0b1339e18537a3626b7"/>
   <project groups="common" name="platform/upstream/edbus" revision="2794ce43563454872e90515c795697773fc44088"/>
   <project groups="common" name="platform/upstream/efi-shell" revision="53b6e6a59db79b6978508f69c6e9712449f38abf"/>
-  <project groups="common" name="platform/upstream/efl" revision="88fe80f8959064412e6613b24761606403b08561"/>
+  <project groups="common" name="platform/upstream/efl" revision="52826f807ab05eb09e39b97ae8c8e7e6faeb2a05"/>
   <project groups="common" name="platform/upstream/elementary" revision="48de6fe3127b0e8da306d0fa0b181469b101e3af"/>
   <project groups="common" name="platform/upstream/elfutils" revision="a65e5e825d495b7a022418143b8bb978b174580d"/>
   <project groups="common" name="platform/upstream/emulator-macros" revision="cfa44635164265eb9a06a9ec13642aadfa3d5b69"/>
@@ -315,7 +316,7 @@
   <project groups="common" name="platform/upstream/fontconfig" revision="19f646b562a7c2ea7fa5a90d7ec7768a2a81d986"/>
   <project groups="common" name="platform/upstream/fontsproto" revision="ce71f03f8451f7b98dca7b926bb94dc7b4d48506"/>
   <project groups="common" name="platform/upstream/freealut" revision="add09c7d4378122b97259e660029f9104b52a172"/>
-  <project groups="common" name="platform/upstream/freerdp" revision="f84d200ff28eeea236c41165ada7b5355e51928d"/>
+  <project groups="common" name="platform/upstream/freerdp" revision="3d1be98664c3a1073600b7186cf66165b927fd82"/>
   <project groups="common" name="platform/upstream/freetype2" revision="b91f3b65f17e59c4331f19be052056e06aa97a96"/>
   <project groups="common" name="platform/upstream/fribidi" revision="d96da0b6aa6593b118b22d59a242c4feb5ff4927"/>
   <project groups="common" name="platform/upstream/fsync" revision="5e0c503d103760edc57f83f3f1e88c60a075bb2e"/>
@@ -461,7 +462,7 @@
   <project groups="common" name="platform/upstream/libunistring" revision="b034570bc29819e381b4e1b0c1675f753c246346"/>
   <project groups="common" name="platform/upstream/libunwind" revision="4963c30b128be6690c84aea06891875412ce95b6"/>
   <project groups="common" name="platform/upstream/libusb" revision="60594575880758e0e0a6223cd28cbd6b9717c9fa"/>
-  <project groups="common" name="platform/upstream/libusb-compat" revision="94264d6c4a28117d8b6c4f4e13eaeeb0c30595a5"/>
+  <project groups="common" name="platform/upstream/libusb-compat" revision="5b22afc6b6aeef92920bda39372de3dab1de9314"/>
   <project groups="common" name="platform/upstream/libva" revision="e05c2c1d23d9b1d8b21a0f9e67ace4d8960d6df3"/>
   <project groups="common" name="platform/upstream/libva-intel-driver" revision="877de52d1f1a91793e36b51c848d0e9b6061a69d"/>
   <project groups="common" name="platform/upstream/libvorbis" revision="e4c8e81efeb8b39d14f88cece4ab1396e7350594"/>
@@ -507,7 +508,7 @@
   <project groups="common" name="platform/upstream/nasm" revision="475661df597f2c6f00235093eb52ea2be5ef515d"/>
   <project groups="common" name="platform/upstream/ncurses" revision="eb364a2d81276b874d9b357df7e545765e08313b"/>
   <project groups="common" name="platform/upstream/neard" revision="d2ab912babf1ee161004b041ca2bd70f3ff7de0c"/>
-  <project groups="common" name="platform/upstream/neardal" revision="fe9042e311dc29c76b7c4b618f28ea1a517b6d7d"/>
+  <project groups="common" name="platform/upstream/neardal" revision="c8241fc5a9e27aa1c53ea6980618c00e4c74a2c4"/>
   <project groups="common" name="platform/upstream/neon" revision="48343367844cd98e519c8af6979398b98a65453f"/>
   <project groups="common" name="platform/upstream/net-tools" revision="3fbe59f9f7582132f0187efb855cc0f2ea1bd61b"/>
   <project groups="common" name="platform/upstream/nettle" revision="81297f25ff4d7e7bf28e6fc95d9250474b7805a7"/>
@@ -645,7 +646,7 @@
   <project groups="common" name="platform/upstream/tiff" revision="2d1548a92a4768584c545d5c40fa203883612eb0"/>
   <project groups="common" name="platform/upstream/time" revision="c96806376d21e0bf7c2150ecf68c3d530572b68b"/>
   <project groups="common" name="platform/upstream/tizen-branding-default" revision="a18b947db2fd63f301f9fa9c0db6102154a5ffe9"/>
-  <project groups="common" name="platform/upstream/tizen-release" revision="868d55cd7df89b543ea4f52404f842ae9de7926e"/>
+  <project groups="common" name="platform/upstream/tizen-release" revision="a708c160953c56488fd586637a9659fe4fa6ca01"/>
   <project groups="common" name="platform/upstream/tolua++" revision="4116ac1492c7779d04e7f121f929783b93ad6725"/>
   <project groups="common" name="platform/upstream/tree" revision="ec33c836d510f3a3a2341ff4aae98bede2a35131"/>
   <project groups="common" name="platform/upstream/tzdata" revision="3d33d67c8ccd366478c8c4ebbc32a95c4ac7c62a"/>
@@ -702,25 +703,25 @@
   <project groups="common" name="platform/upstream/zypper-plugin" revision="d6f3ebd459bc41f2638d4232ad323433d382f454"/>
   <project name="platform/vendor/alsa-broadcom-plugin" revision="710ec74ad495b9eaa39fbd5013cdbd1006957980"/>
   <project name="platform/vendor/broadcom-kernel" revision="e3a5adb3bc0be1e57141d4e4195c53f9c820217e"/>
-  <project name="platform/vendor/broadcom-refsw" revision="549cf713eadbf2809231c225e91158e937054614"/>
+  <project name="platform/vendor/broadcom-refsw" revision="b529100caa5987b2070fd3edd96921ec5408baf2"/>
   <project name="platform/vendor/broadcom-stbgcc" revision="b681ee320477f74e0bbf930518f79735ff2365e4"/>
-  <project name="platform/vendor/broadcom-stbgcc-eglibc" revision="09ca8b5889d430ec875327fcfffff3f4bb538a12"/>
+  <project name="platform/vendor/broadcom-stbgcc-eglibc" revision="4678304b3adbd9ae725e9237e4623227526d955e"/>
   <project name="platform/vendor/gst-plugins-brcm" revision="0129e2f3cf046abe6061dbb85648f1d4d8777335"/>
   <project name="platform/vendor/libslp-devman-nexus" revision="0d1dfdd949597ecfd43f7c4507ba6d5c19bfec79"/>
-  <project name="platform/vendor/qemu-accel-arm" revision="69ab840da72179e4282fa7f74312c21b637d30f0"/>
-  <project name="platform/vendor/qemu-accel-mipsel" revision="8a1e56501a5b5b29b1dfcdf9389839ac527fa6f7"/>
+  <project name="platform/vendor/qemu-accel-arm" revision="6f20442024ccbd05c5d271c48a849d5f0d9b6e17"/>
+  <project name="platform/vendor/qemu-accel-mipsel" revision="6e0154b59088197ef53104fd6979ad60cdab30c7"/>
   <project name="platform/vendor/stbgcc-eglibc" revision="a804826ca7bef317ba18ab52f21573ab042b42c5"/>
   <project name="platform/vendor/stbgcc-uclibc" revision="8c29944e9d646528af13daf53a9a522775e532d6"/>
   <project name="platform/vendor/v3d-example" revision="d744a68f2bc747e62dd006519075aca31d600904"/>
   <project name="platform/vendor/wayland-egl" revision="9587c58aac3a6b695c9ece921718d82c75796959"/>
   <project name="platform/vendor/weston-nexus-backend" revision="7fde2b932bfb99857cbf59fce714ac5fb254ecfd"/>
-  <project groups="prebuilts" name="pre-built/toolchain-arm" revision="1d5cdc02b7f2e2bd4816b7ee5bf4dfd5fa3c8048"/>
-  <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="acae3d4dc7d7debb0fbbe900f6c9678bc4f31f71"/>
-  <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="424a1dfadd5f51d9d683f108abfd2e3a26b299d5"/>
-  <project groups="prebuilts" name="pre-built/toolchain-x86" revision="82a39fdf293803fd76af6a4b4fb543212408145d"/>
+  <project groups="prebuilts" name="pre-built/toolchain-arm" revision="aded215e332b91d288bdefb10a7533ef56c10fb1"/>
+  <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="8d00f7f016c4425faa0bb16379e3d7ea07553804"/>
+  <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="24ca7ff837adcc6f0b081b491bfcc8f82f3d0f04"/>
+  <project groups="prebuilts" name="pre-built/toolchain-x86" revision="0b633ba7e68ae627b5ced3fdc7a109ff2af5df79"/>
   <project groups="common" name="profile/common/desktop-skin" revision="9b8908878636781c46a8c6503c3bedaf171bc7aa"/>
-  <project groups="common" name="profile/common/kernel-common" revision="b3fbbc2177eb7f2fc3f1ea9a5f75293225e3aacd"/>
-  <project groups="common" name="profile/common/meta" revision="ba73eb61e9a0ba5ae238365a6bdbccffc218d447"/>
+  <project groups="common" name="profile/common/kernel-common" revision="17e1da58941b55bc903229140ef0458131df65af"/>
+  <project groups="common" name="profile/common/meta" revision="16974f9f07cee208ffa5f7c01ad1a7067130f04e"/>
   <project groups="common" name="profile/common/system-installer" revision="64fc4ad7537eca4e0e06f5436a6d11af1e39dbb0"/>
   <project groups="common" name="profile/common/weston-common" revision="ace16a8ec59ded02a48edf17a67609d11e5df154"/>
   <project groups="common" name="profile/common/wrt-widgets" revision="e84337cd05c5879886ab5a87ef68c500d64cbab7"/>
@@ -731,8 +732,10 @@
   <project groups="common" name="profile/ivi/GUPnP-AV" revision="71094b9473dad3d2a9bf7c77e5f920879fae8290"/>
   <project groups="common" name="profile/ivi/GUPnP-DLNA" revision="fcf4110293c50f0299142bc9ef56f29266fb8d78"/>
   <project groups="common" name="profile/ivi/dLeyna" revision="bced9884aef8461ee81663ad3f99d3d083cbc8cc"/>
-  <project groups="meta" name="scm/meta/build-config" revision="8608666afa9773df8ba3fc1682068b8f22004f2d"/>
-  <project groups="meta" name="scm/meta/gbs-config" revision="a5b3b2a906d27d33a739edef9683d27c9805a63b">
+  <project groups="common" name="profile/ivi/libwebsockets" revision="270620a55c0144f0af05f006523f2d294298ade2"/>
+  <project groups="common" name="profile/ivi/murphy" revision="da691d4d67d14eae36ed551e3c9b78e90b2ffdbf"/>
+  <project groups="meta" name="scm/meta/build-config" revision="6cdfa47448f55563a0b4106d2ccdf0dce7ec917e"/>
+  <project groups="meta" name="scm/meta/gbs-config" revision="a587d8ddb376354883bbd035b7de4b4220f0a947">
     <copyfile dest=".gbs.conf" src="gbs.conf"/>
   </project>
   <project groups="common" name="sdk/target/sdbd" revision="0c7285f8115e55c661fc083d8a27abdbccf4f426"/>
