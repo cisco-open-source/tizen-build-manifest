@@ -703,7 +703,7 @@
   <project groups="common" name="platform/upstream/zypper-plugin" revision="d6f3ebd459bc41f2638d4232ad323433d382f454"/>
   <project name="platform/vendor/alsa-broadcom-plugin" revision="710ec74ad495b9eaa39fbd5013cdbd1006957980"/>
   <project name="platform/vendor/broadcom-kernel" revision="e3a5adb3bc0be1e57141d4e4195c53f9c820217e"/>
-  <project name="platform/vendor/broadcom-refsw" revision="f0f2fe35ffa2dbba4295659e29bd1b09d385f761"/>
+  <project name="platform/vendor/broadcom-refsw" revision="b529100caa5987b2070fd3edd96921ec5408baf2"/>
   <project name="platform/vendor/broadcom-stbgcc" revision="b681ee320477f74e0bbf930518f79735ff2365e4"/>
   <project name="platform/vendor/broadcom-stbgcc-eglibc" revision="4678304b3adbd9ae725e9237e4623227526d955e"/>
   <project name="platform/vendor/gst-plugins-brcm" revision="0129e2f3cf046abe6061dbb85648f1d4d8777335"/>
@@ -721,7 +721,7 @@
   <project groups="prebuilts" name="pre-built/toolchain-x86" revision="0b633ba7e68ae627b5ced3fdc7a109ff2af5df79"/>
   <project groups="common" name="profile/common/desktop-skin" revision="9b8908878636781c46a8c6503c3bedaf171bc7aa"/>
   <project groups="common" name="profile/common/kernel-common" revision="17e1da58941b55bc903229140ef0458131df65af"/>
-  <project groups="common" name="profile/common/meta" revision="4fdd8b4ec25b792de6c0fb636bbf1618d4084c22"/>
+  <project groups="common" name="profile/common/meta" revision="16974f9f07cee208ffa5f7c01ad1a7067130f04e"/>
   <project groups="common" name="profile/common/system-installer" revision="64fc4ad7537eca4e0e06f5436a6d11af1e39dbb0"/>
   <project groups="common" name="profile/common/weston-common" revision="ace16a8ec59ded02a48edf17a67609d11e5df154"/>
   <project groups="common" name="profile/common/wrt-widgets" revision="e84337cd05c5879886ab5a87ef68c500d64cbab7"/>
