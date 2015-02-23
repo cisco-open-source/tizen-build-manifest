@@ -713,7 +713,7 @@
   <project name="platform/vendor/stbgcc-eglibc" revision="a804826ca7bef317ba18ab52f21573ab042b42c5"/>
   <project name="platform/vendor/stbgcc-uclibc" revision="8c29944e9d646528af13daf53a9a522775e532d6"/>
   <project name="platform/vendor/v3d-example" revision="d744a68f2bc747e62dd006519075aca31d600904"/>
-  <project name="platform/vendor/wayland-egl" revision="9587c58aac3a6b695c9ece921718d82c75796959"/>
+  <project name="platform/vendor/wayland-egl" revision="722dffd85f609466b7af0c846fb62bed90e24c13"/>
   <project name="platform/vendor/weston-nexus-backend" revision="7fde2b932bfb99857cbf59fce714ac5fb254ecfd"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm" revision="aded215e332b91d288bdefb10a7533ef56c10fb1"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="8d00f7f016c4425faa0bb16379e3d7ea07553804"/>
