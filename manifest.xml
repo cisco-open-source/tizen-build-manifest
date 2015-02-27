@@ -163,7 +163,7 @@
   <project groups="common" name="platform/core/security/ca-certificates-tizen" revision="7bb7ed313e91c42a57f2abf3560ce4db5baa9a4b"/>
   <project groups="common" name="platform/core/security/cert-svc" revision="be15af403e344defdfc93d8cd3994a6c3fa2a688"/>
   <project groups="common" name="platform/core/security/cert-svc-ui" revision="17a6f1478429577720f0f17ac039b6ccc6b0aed3"/>
-  <project groups="common" name="platform/core/security/cynara" revision="6c079ffeed2e4dc0c8cec00e5a7da67f3c5e2564"/>
+  <project groups="common" name="platform/core/security/cynara" revision="f6b56bde436b388868cf868f209d954bb398eb0e"/>
   <project groups="common" name="platform/core/security/default-ac-domains" revision="e0e07131d5999d39f5ab3ea5f54bf83e81abafc3"/>
   <project groups="common" name="platform/core/security/drm-client" revision="fe8dfafce86716d18f727492175896a50969923b"/>
   <project groups="common" name="platform/core/security/dukgenerator" revision="dba9f75b65f93b0139eb79e634252ce7a7c8d06d"/>
@@ -176,7 +176,7 @@
   <project groups="common" name="platform/core/security/secure-storage" revision="526d1697f81a506c2950bf0ccf54bb5c86eefa40"/>
   <project groups="common" name="platform/core/security/security-manager" revision="3dec492df1a5a937ceed39c4985d9659860e5783"/>
   <project groups="common" name="platform/core/security/security-server" revision="b343312151d329a5fed8a5fd91f54e4bc5c96e64"/>
-  <project groups="common" name="platform/core/system/deviced" revision="a8523c4eab30ad4decd1972aa5dd0934ee42b1ae"/>
+  <project groups="common" name="platform/core/system/deviced" revision="39047d8a0460ee4b8bb8e4c04012b367e02c41a2"/>
   <project groups="common" name="platform/core/system/dlog" revision="c43bce370f4aaa09f48df4e2c1d2b99f133526d0"/>
   <project groups="common" name="platform/core/system/haptic-module-tizen" revision="dd2a75f90849a6c25f62a137222b9a81f935575d"/>
   <project groups="common" name="platform/core/system/libdevice-node" revision="04fd20f5a06355fc0afe110337ccb9dc7445ad1d"/>
@@ -718,8 +718,8 @@
   <project name="platform/vendor/wayland-egl" revision="eac8633da846ba957ec03da13c409c618fd19678"/>
   <project name="platform/vendor/weston-nexus-backend" revision="50e43e0ccdffe5dcf15dc5a9e9277fa1d8c902df"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm" revision="aded215e332b91d288bdefb10a7533ef56c10fb1"/>
-  <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="7e5e627b25fcd9a3c6193ff1a89d41f59b5d30b6"/>
-  <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="440864a1a53e3cf7fae36ed0efd853225910c4cd"/>
+  <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="5594b1e0dda3318c018e24f3605441fd9b110427"/>
+  <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="0ee949bf7059a213ed61fa8c4badbb6e52016342"/>
   <project groups="prebuilts" name="pre-built/toolchain-x86" revision="0b633ba7e68ae627b5ced3fdc7a109ff2af5df79"/>
   <project groups="common" name="profile/common/desktop-skin" revision="3bf3a0b2b752147692497fdb312c935879a00d37"/>
   <project groups="common" name="profile/common/kernel-common" revision="a91a6903355c2585a5149b6de8baa4b0c3bb11c1"/>
