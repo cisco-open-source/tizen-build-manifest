@@ -212,7 +212,7 @@
   <project groups="common" name="platform/core/uifw/libtbm" revision="11932fc0f5e364dfa3248afb45425fbccc073574"/>
   <project groups="common" name="platform/core/uifw/stt" revision="a53b10be804cea996e4a59315e48dc4e2dcb0e4c"/>
   <project groups="common" name="platform/core/uifw/tts" revision="8c242a73c16bd4d205854b39c7886c4f3c0bcf7a"/>
-  <project groups="common" name="platform/framework/web/crosswalk" revision="1155a54b7162c6c6ad15e67f994978f1eda45e94"/>
+  <project groups="common" name="platform/framework/web/crosswalk" revision="0ebb8bb3a5c23bfd58285465068305d4bda2f5b8"/>
   <project groups="common" name="platform/framework/web/download-provider" revision="c755d55a2b084c5e787ce6b34f91b64cbe4bfbb5"/>
   <project groups="common" name="platform/framework/web/tizen-extensions-crosswalk" revision="61348858a072a1f39977459a8195215ed8db7d0f"/>
   <project groups="common" name="platform/framework/web/wrt-commons" revision="5ba6ba79cde39403be4b6c34ca33f3fb6abc9ae8"/>
@@ -220,7 +220,7 @@
   <project groups="common" name="platform/upstream/acl" revision="3d85f4077c72de04f46b1c526aa2c2cde71ccc21"/>
   <project groups="common" name="platform/upstream/acpid" revision="f3993a6dba55ea577e2947f98e8ac5480e912e3c"/>
   <project groups="common" name="platform/upstream/adns" revision="20e474eda39bdaa3ab7a80345e77d93967d55f88"/>
-  <project groups="common" name="platform/upstream/alsa-lib" revision="a29a31009d461be0cea793f11044e607362346b7"/>
+  <project groups="common" name="platform/upstream/alsa-lib" revision="a43a43f6f8a39ca0bbcea6e2f3b396518e06ad9b"/>
   <project groups="common" name="platform/upstream/alsa-plugins" revision="19c484e9bc0d77034e4871a1c36752b9b5ed1a92"/>
   <project groups="common" name="platform/upstream/alsa-utils" revision="147972acdf92a21e5d6f608cf1b35cd611329ef5"/>
   <project name="platform/upstream/argp-standalone" revision="9e763d4f10214b194dca6e7471cadf156313e52e"/>
@@ -488,7 +488,7 @@
   <project groups="common" name="platform/upstream/lrzsz" revision="6d3f6f3fbe6d5a0b3191c72c05f1a2707dfd08bb"/>
   <project groups="common" name="platform/upstream/lsb" revision="a4c2c4f9d0a33caff9a73fcf8c8934fdf75d705a"/>
   <project groups="common" name="platform/upstream/lsof" revision="53a531a071f1d58e5c6a06b1d9459b25546c7ecb"/>
-  <project groups="common" name="platform/upstream/ltrace" revision="004a8b4fd3e6c6c592aba8dbafde5516c7bc1bef"/>
+  <project groups="common" name="platform/upstream/ltrace" revision="58a6852b2bc4ccc9a66a610bca888aa706503abb"/>
   <project groups="common" name="platform/upstream/lua" revision="25c38c5d6cf919f6e0c37413955c20dbea24d37f"/>
   <project groups="common" name="platform/upstream/lzo" revision="a97fbf725aa75db53756b59df6888e59b47c931d"/>
   <project groups="common" name="platform/upstream/lzop" revision="5b56bd67c8ad4362c62c08cbe09d76f8db558638"/>
@@ -639,7 +639,7 @@
   <project groups="common" name="platform/upstream/sysfsutils" revision="e9dfe180eb604903471f538bc4d15e8423754c3a"/>
   <project groups="common" name="platform/upstream/syslinux" revision="895eeefb13420b6621fbf5b6d8373ee6f2f4b32f"/>
   <project groups="common" name="platform/upstream/sysprof" revision="510029309bfa269fa9d58ebb7e3e93b7d1b2b432"/>
-  <project groups="common" name="platform/upstream/systemd" revision="d3930e1112aa2f65846f1008f5684010defa6dc3"/>
+  <project groups="common" name="platform/upstream/systemd" revision="86ccc420499f272fb173afe7bc27541c25b414f3"/>
   <project groups="common" name="platform/upstream/tar" revision="53b1109fe706ba91da70eefde51a391081112a74"/>
   <project groups="common" name="platform/upstream/tcl" revision="6c50087c21321e4e55290476f27ca187e516ac48"/>
   <project groups="common" name="platform/upstream/tcpdump" revision="09a0a046c9c1bd6df1834f4f4804753bd0788785"/>
@@ -722,8 +722,8 @@
   <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="0ee949bf7059a213ed61fa8c4badbb6e52016342"/>
   <project groups="prebuilts" name="pre-built/toolchain-x86" revision="0b633ba7e68ae627b5ced3fdc7a109ff2af5df79"/>
   <project groups="common" name="profile/common/desktop-skin" revision="3bf3a0b2b752147692497fdb312c935879a00d37"/>
-  <project groups="common" name="profile/common/kernel-common" revision="a91a6903355c2585a5149b6de8baa4b0c3bb11c1"/>
-  <project groups="common" name="profile/common/meta" revision="8e74dc9e4e82a5e45bb8dac677eab825b25ab256"/>
+  <project groups="common" name="profile/common/kernel-common" revision="9e720b1bdec54c61b12bcd6bc249e86fa646c1cd"/>
+  <project groups="common" name="profile/common/meta" revision="9ae1fa7e75a934665a427f4bc484410a47b17cce"/>
   <project groups="common" name="profile/common/system-installer" revision="9ad1297d81423bab75cd993148ec73b104074324"/>
   <project groups="common" name="profile/common/weston-common" revision="bba9e6c2ec15757449e129454efb97b4a16925aa"/>
   <project groups="common" name="profile/common/wrt-widgets" revision="72afa2665266e7d34d0c0177a3ddde4d2e8a3b67"/>
@@ -736,7 +736,7 @@
   <project groups="common" name="profile/ivi/GUPnP-DLNA" revision="fcf4110293c50f0299142bc9ef56f29266fb8d78"/>
   <project groups="common" name="profile/ivi/dLeyna" revision="bced9884aef8461ee81663ad3f99d3d083cbc8cc"/>
   <project groups="common" name="profile/ivi/libwebsockets" revision="270620a55c0144f0af05f006523f2d294298ade2"/>
-  <project groups="common" name="profile/ivi/murphy" revision="da691d4d67d14eae36ed551e3c9b78e90b2ffdbf"/>
+  <project groups="common" name="profile/ivi/murphy" revision="0a1ab4f2a5bb7e4be99a8eba04afffdb9f51ad4b"/>
   <project groups="meta" name="scm/meta/build-config" revision="baa4999ff1365f520dd3b4fc7a99c195dca3273c"/>
   <project groups="meta" name="scm/meta/gbs-config" revision="a587d8ddb376354883bbd035b7de4b4220f0a947">
     <copyfile dest=".gbs.conf" src="gbs.conf"/>
