@@ -402,7 +402,7 @@
   <project groups="common" name="platform/upstream/krb5" revision="0991744c67bda32ebfd6c87c952d044aba2daeca"/>
   <project groups="common" name="platform/upstream/lcms2" revision="d8c610099fe10862394b5fece5df227df9be1ca0"/>
   <project groups="common" name="platform/upstream/less" revision="49f696a4776d134996ba75b3b3092c4f8a26bed1"/>
-  <project groups="common" name="platform/upstream/leveldb" revision="9c5600002489dfbcb0d58ef84e4188e5423265eb"/>
+  <project groups="common" name="platform/upstream/leveldb" revision="d07ef41d6d1cf754bb9e3cd19ef8301d11bc7ad9"/>
   <project groups="common" name="platform/upstream/libICE" revision="754a5288034a779667c0f8216a3b1402a20bff54"/>
   <project groups="common" name="platform/upstream/libSM" revision="b5df5f309d12616c47edc40c2c6e852ec20f88fb"/>
   <project groups="common" name="platform/upstream/libaio" revision="c66e25c885db0269e7077aa0fb6af99ca37a9f28"/>
@@ -631,7 +631,7 @@
   <project groups="common" name="platform/upstream/speex" revision="07717be8159a192033af8e6777bf988234019352"/>
   <project groups="common" name="platform/upstream/sqlite" revision="6d3eef95de5a510d5b5d1ab49db7ed5dc806d6e6"/>
   <project groups="common" name="platform/upstream/squashfs" revision="c06efd7649f50d77ad9b0e21d22416d2f383b6c6"/>
-  <project groups="common" name="platform/upstream/strace" revision="3582bebc2d86e0240bdd8c3c01864b8d5222c239"/>
+  <project groups="common" name="platform/upstream/strace" revision="642726b9b300392ca7eff6d0eaa7737e4e7aa8bf"/>
   <project groups="common" name="platform/upstream/sudo" revision="d1496cc120b9a1e8bb0b037827ceb502f47e3282"/>
   <project groups="common" name="platform/upstream/swig" revision="5de1479f4112c459be22430554b73824ed85be98"/>
   <project groups="common" name="platform/upstream/swup" revision="d00de0eb54070ce199198ca0298da78339eb18ac"/>
@@ -705,8 +705,8 @@
   <project groups="common" name="platform/upstream/zypper-plugin" revision="d6f3ebd459bc41f2638d4232ad323433d382f454"/>
   <project name="platform/vendor/alsa-broadcom-plugin" revision="710ec74ad495b9eaa39fbd5013cdbd1006957980"/>
   <project name="platform/vendor/broadcom-kernel" revision="e3a5adb3bc0be1e57141d4e4195c53f9c820217e"/>
-  <project name="platform/vendor/broadcom-refsw" revision="f0f2fe35ffa2dbba4295659e29bd1b09d385f761"/>
-  <project name="platform/vendor/broadcom-stbgcc" revision="dc7b8f2c333dfb98066a664f12c27af0e78fb3e4"/>
+  <project name="platform/vendor/broadcom-refsw" revision="4c377faed42ef734f355012a70ae3ebae5420e89"/>
+  <project name="platform/vendor/broadcom-stbgcc" revision="ae252cdc65e0748b7f0e08ff0ceac91e29f12477"/>
   <project name="platform/vendor/broadcom-stbgcc-eglibc" revision="4678304b3adbd9ae725e9237e4623227526d955e"/>
   <project name="platform/vendor/gst-plugins-brcm" revision="0129e2f3cf046abe6061dbb85648f1d4d8777335"/>
   <project name="platform/vendor/libslp-devman-nexus" revision="0d1dfdd949597ecfd43f7c4507ba6d5c19bfec79"/>
@@ -715,11 +715,11 @@
   <project name="platform/vendor/stbgcc-eglibc" revision="f88853cc1e581187eb95b1e96b3930f4c5b1ac16"/>
   <project name="platform/vendor/stbgcc-uclibc" revision="8c29944e9d646528af13daf53a9a522775e532d6"/>
   <project name="platform/vendor/v3d-example" revision="d744a68f2bc747e62dd006519075aca31d600904"/>
-  <project name="platform/vendor/wayland-egl" revision="eac8633da846ba957ec03da13c409c618fd19678"/>
+  <project name="platform/vendor/wayland-egl" revision="66eae888f3f71a90dec61b3c0821f88320082dc7"/>
   <project name="platform/vendor/weston-nexus-backend" revision="50e43e0ccdffe5dcf15dc5a9e9277fa1d8c902df"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm" revision="aded215e332b91d288bdefb10a7533ef56c10fb1"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="5594b1e0dda3318c018e24f3605441fd9b110427"/>
-  <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="0ee949bf7059a213ed61fa8c4badbb6e52016342"/>
+  <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="6d7d8bc1ac1fd9e2f837302944b3e98faf7dd039"/>
   <project groups="prebuilts" name="pre-built/toolchain-x86" revision="0b633ba7e68ae627b5ced3fdc7a109ff2af5df79"/>
   <project groups="common" name="profile/common/desktop-skin" revision="3bf3a0b2b752147692497fdb312c935879a00d37"/>
   <project groups="common" name="profile/common/kernel-common" revision="9e720b1bdec54c61b12bcd6bc249e86fa646c1cd"/>
