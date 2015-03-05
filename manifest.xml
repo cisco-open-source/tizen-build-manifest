@@ -105,7 +105,7 @@
   <project groups="common" name="platform/core/appfw/tizen-platform-wrapper" revision="8b5967cd28a02dd169920f84722d5946d76b1690"/>
   <project groups="common" name="platform/core/appfw/ui-gadget-1" revision="ab0617e134e4a5bc233529b9c32fbd2467de1cd0"/>
   <project groups="common" name="platform/core/appfw/vconf" revision="ddfbfa59068a46999afcd645dda13a73680c825c"/>
-  <project groups="common" name="platform/core/appfw/vconf-buxton" revision="fc87596c925735a13abf578fe724b2b8dac0032e"/>
+  <project groups="common" name="platform/core/appfw/vconf-buxton" revision="2642f75ff56d77772cc40c28a60bae31b2f30047"/>
   <project groups="common" name="platform/core/appfw/vconf-internal-keys" revision="9d1f756ba5062a60eeea11cf0b2b7fd60461bcf5"/>
   <project groups="common" name="platform/core/appfw/xdgmime" revision="b4465f4d82bb133688ca5cf67ca3b5a18af55ab4"/>
   <project groups="common" name="platform/core/base/bundle" revision="71b36b170c377bfd15cb5601c49340ba95a1a30d"/>
