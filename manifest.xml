@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="ssh://git@gitlab-art.globallogic.com.ar/cisco-tizen" name="cisco-tizen" review="https://gitlab-art.globallogic.com.ar/cisco-tizen"/>
-  <remote fetch="ssh://glc@172.26.9.81:22/local/glc/git/Tizen" name="tizen-dmz-local" review="http://172.26.9.81/gitweb"/>
   <remote fetch="ssh://review.tizen.org/" name="tizen-gerrit" review="https://review.tizen.org/gerrit"/>
   <remote fetch="git://github.com/cisco-open-source" name="tizen-github" review="git://github.com/cisco-open-source"/>
-  <remote fetch="ssh://172.24.202.13:29418/Tizen" name="tizen-local" review="https://172.24.202.13:8443"/>
-  <remote fetch="ssh://build@172.24.202.13:22/home/build/git/Tizen" name="tizen-update"/>
+  <remote fetch="ssh://glc@10.60.53.4:22/local/glc/git/Tizen" name="tizen-local" review="http://10.60.53.4/gitweb"/>
+  <remote fetch="ssh://glc@10.60.53.4:22/local/glc/git/Tizen" name="tizen-update"/>
   
   <default remote="tizen-local" revision="tizen-ua"/>
   
-  <project name="adaptation/wlandrv-plugin-tizen-rt5370sta" revision="a1b54a9b4af536338022889ff64beaa1d4d0ff49"/>
   <project groups="common" name="apps/core/preloaded/bt-syspopup" revision="332429a354f932ca981424bb84c8c0e937eb4f2d"/>
   <project groups="common" name="apps/core/preloaded/calculator" revision="90872234820acfa01a462f2f05e68c90ee9faace"/>
   <project groups="common" name="apps/core/preloaded/libslp-memo" revision="592a8d438d10026357c0596363ae5e6de2e40e5f"/>
@@ -21,7 +19,7 @@
   <project groups="common" name="apps/core/preloaded/udisks-automount-agent" revision="e2599b49577784651321627a5a48e00513148a20"/>
   <project groups="common" name="apps/core/preloaded/ug-setting-gallery-efl" revision="6af5e50e6fca698032c0eec4d5cb42629f9ae56e"/>
   <project groups="common" name="apps/core/preloaded/ug-setting-homescreen-efl" revision="140c4f18f5a998e12e45daaf063bf430eea35c84"/>
-  <project groups="common" name="apps/core/preloaded/usb-manager" revision="8f24bc28547f289429f1da5830183ea616c0ca1a"/>
+  <project groups="common" name="apps/core/preloaded/usb-manager" revision="cf342ebd6330c699a7a5db20b4687bc4b3819332"/>
   <project groups="common" name="apps/core/preloaded/usb-syspopup" revision="dd573a0b6de8518bb7cf1e330234e754bddaf3da"/>
   <project name="ethtool" path="platform/upstream/ethtool" remote="tizen-github" revision="20d4449e2019daa97623cffc2028b3870dfa630e"/>
   <project name="ffmpeg" path="platform/upstream/ffmpeg" remote="tizen-github" revision="e81dd26a670b7e5509c2e2ee7af06edcd4be381d"/>
@@ -34,7 +32,7 @@
   <project name="libmpeg2" path="platform/upstream/libmpeg2" remote="tizen-github" revision="5e8464c4011985d31a4042acea23f1023d8c7a75"/>
   <project groups="common" name="platform/adaptation/emulator/system-plugin-emulator" revision="5f03b4b95dd8061df120a05770c00e797cd4df18"/>
   <project groups="common" name="platform/adaptation/setup-scripts" revision="e0ee512691d8903ad41cf7b74ce9ea132899ef39"/>
-  <project groups="common" name="platform/appfw/app-installers" revision="33c5783ceafe3d8d2f87f9da05ce4973df6d1c40"/>
+  <project groups="common" name="platform/appfw/app-installers" revision="959fe7a29ed106aec1a9000810b6212be461ab3d"/>
   <project groups="common" name="platform/core/api/app-manager" revision="a75ddb92d8ea619e4d8ebb953fe14ded11ba8214"/>
   <project groups="common" name="platform/core/api/application" revision="4383609dbe3f4b43240030d392bb1b81aef22b0f"/>
   <project groups="common" name="platform/core/api/audio-io" revision="5b5dea6b92d643e6e59ca2cb8887010f90c79d83"/>
@@ -42,9 +40,9 @@
   <project groups="common" name="platform/core/api/call" revision="d95cc2728691abb87f72e7d3e3044c7f581b1610"/>
   <project groups="common" name="platform/core/api/camera" revision="35c0cbe525ced1bc6dc4d2abc4a16c26247b2751"/>
   <project groups="common" name="platform/core/api/common" revision="9ab27c073081894717fa7f12905cbe3b60dfd9ec"/>
-  <project groups="common" name="platform/core/api/connection" revision="5ec3b5009863330a604936cedcc75cd9fee3d89a"/>
+  <project groups="common" name="platform/core/api/connection" revision="141a0c47e0e014b2fe78fb2f5f8f61429a2ba86c"/>
   <project groups="common" name="platform/core/api/device" revision="b3d72a64ca39fef39127aeb040f370c9e2798c2e"/>
-  <project groups="common" name="platform/core/api/efl-util" revision="865e362a9a5dee82fdce5ab48334d1d9c98ca830"/>
+  <project groups="common" name="platform/core/api/efl-util" revision="7a4ab73d2abe324bacbfc22fe80229c1a6289a8e"/>
   <project groups="common" name="platform/core/api/email" revision="3e09caa2ffb69b662f7fc3350e8e76f25864650f"/>
   <project groups="common" name="platform/core/api/favorites" revision="65cfd6936edd8d6996b1c2e067997d77decb3309"/>
   <project groups="common" name="platform/core/api/geocoder" revision="f3ab5ec7eb99416b34710c421ff60dd6bc90f89f"/>
@@ -52,7 +50,7 @@
   <project groups="common" name="platform/core/api/image-util" revision="f02004b94ca2b2c0c21c67be0a0d1ce8edee0a75"/>
   <project groups="common" name="platform/core/api/location-manager" revision="43decd22f1ae4fe02710e029e3f73b97b4b1778f"/>
   <project groups="common" name="platform/core/api/media-content" revision="f8e097736df02e1686da42f2d56ea31ad4a7bac2"/>
-  <project groups="common" name="platform/core/api/media-key" revision="becd934a2f1d620dbe1c7ae0915d574478c3eba8"/>
+  <project groups="common" name="platform/core/api/media-key" revision="b54c1f7121b30e01cc3f2cee84a9818d0473aaa5"/>
   <project groups="common" name="platform/core/api/mediatool" revision="b94be1dc60da0638164377f1e9b8fabf9eff79ed"/>
   <project groups="common" name="platform/core/api/messages" revision="b6b53777347f754138642a64722ad239e3e2232a"/>
   <project groups="common" name="platform/core/api/metadata-extractor" revision="2c77312d397db3ac8ee9bc381884e5f418ce2438"/>
@@ -74,22 +72,22 @@
   <project groups="common" name="platform/core/api/sound-manager" revision="4232dc89238c674ae1fcc240cb19547e2a92bae0"/>
   <project groups="common" name="platform/core/api/system-info" revision="1604ff2532e44cd556a88b3a3fc8ee8e48f7da54"/>
   <project groups="common" name="platform/core/api/system-settings" revision="8789adea7dae840914101a770a25ed5ef04e3f73"/>
-  <project groups="common" name="platform/core/api/tethering" revision="d9c4a9752d0c8be29faa847511f5aac088e13dc3"/>
+  <project groups="common" name="platform/core/api/tethering" revision="64e19e65e8ea1085b281af93aa25e40aba9145df"/>
   <project groups="common" name="platform/core/api/tone-player" revision="5a152311e4bd6b11894876926fc5f0babfe663a4"/>
   <project groups="common" name="platform/core/api/url-download" revision="284d7254c1c229ef4dd219db9978c0164bb49c69"/>
-  <project groups="common" name="platform/core/api/usb-accessory" revision="cb4526c64da89022a7d95298ab073e6eb78e5d0c"/>
+  <project groups="common" name="platform/core/api/usb-accessory" revision="eda83a22f7d1e244e6cca84d19a62afe55650100"/>
   <project groups="common" name="platform/core/api/wav-player" revision="e12356a988051f36a2b69dfc6ce0a067117c72d8"/>
-  <project groups="common" name="platform/core/api/wifi" revision="391e3b9f55f1dc7339c6aba23738c6bdf116eb77"/>
-  <project groups="common" name="platform/core/api/wifi-direct" revision="6b4dc140b3c126667d75fb577ccf6bcbbe184244"/>
+  <project groups="common" name="platform/core/api/wifi" revision="e4f3757407a3f24d8b1d182c43b880e867788fd7"/>
+  <project groups="common" name="platform/core/api/wifi-direct" revision="f52d5f5fc56f66fc22571fd312a8b57fda3ef2a9"/>
   <project groups="common" name="platform/core/appfw/ail" revision="dbe1f6852d29bd78941ebae324600d2d6507dd79"/>
   <project groups="common" name="platform/core/appfw/alarm-manager" revision="19baeb3cdc026c400eef251ab4df53d2c3c05cf9"/>
   <project groups="common" name="platform/core/appfw/app-checker" revision="a75f4df722d764c4e2d337d09b8a985a8bba47a2"/>
   <project groups="common" name="platform/core/appfw/app-core" revision="58b4a5a46100477fe7164a02ba9afe05eec0599d"/>
-  <project groups="common" name="platform/core/appfw/app-svc" revision="859ec161b49125408a7c74cacc29e78ad27d9a3c"/>
+  <project groups="common" name="platform/core/appfw/app-svc" revision="d95dbdd84bb3aa893ea3e5042ce7a4684f85f4e6"/>
   <project groups="common" name="platform/core/appfw/app2sd" revision="70f3ce3c8d921946d3cb9219cd9433089becfc4d"/>
   <project groups="common" name="platform/core/appfw/appcore-agent" revision="e30036bce3773d3f647a35bc924d01e17da42962"/>
   <project groups="common" name="platform/core/appfw/aul-1" revision="32146c50d322eb9338529717fdc14490a0a415dd"/>
-  <project groups="common" name="platform/core/appfw/badge" revision="de07ed7f9c15e533cf75954cc7d4c6783f7d86d8"/>
+  <project groups="common" name="platform/core/appfw/badge" revision="42491a08a44cd7f942febc110fb6bb4b89733e2d"/>
   <project groups="common" name="platform/core/appfw/com-core" revision="dbfd87c27e0f73b95b2ae16d0b76e059484d5375"/>
   <project groups="common" name="platform/core/appfw/heynoti" revision="3f82d6115368fb5a2d799436aecc7b339e6ae373"/>
   <project groups="common" name="platform/core/appfw/librua" revision="b3f0019b1e8c118e7f96248d143f43a02c05a4e7"/>
@@ -98,14 +96,13 @@
   <project groups="common" name="platform/core/appfw/notification-service" revision="ea40d15ea8a8dc903dd5c87bd87d594770cf3c2c"/>
   <project groups="common" name="platform/core/appfw/pkgmgr-info" revision="b5c4655153dd8ba3619f1c15f85d2549812daf06"/>
   <project groups="common" name="platform/core/appfw/shortcut" revision="72941e39419267e52c675c0cfec97710ee40052c"/>
-  <project groups="common" name="platform/core/appfw/slp-pkgmgr" revision="5a9c95d025580510a18f80694f807dfdd569410f"/>
+  <project groups="common" name="platform/core/appfw/slp-pkgmgr" revision="cc62763ac7ffa287b0e5b22de3d2e678f3545504"/>
   <project groups="common" name="platform/core/appfw/sppc" revision="a3cfb75871c9bccd1edc98903296f223e2537521"/>
   <project groups="common" name="platform/core/appfw/status" revision="2afa6a6447a70d20f63c67d5ae59cf26608146d9"/>
-  <project groups="common" name="platform/core/appfw/tizen-platform-config" revision="c2b552bd395f4d28f0e369cc1ead4ff18d89a126"/>
-  <project groups="common" name="platform/core/appfw/tizen-platform-wrapper" revision="8b5967cd28a02dd169920f84722d5946d76b1690"/>
+  <project groups="common" name="platform/core/appfw/tizen-platform-config" revision="451432aade897491698e5e6fe7d18cd00e28b718"/>
+  <project groups="common" name="platform/core/appfw/tizen-platform-wrapper" revision="ce8e849a4632d168e420065445dbdc43df061a8a"/>
   <project groups="common" name="platform/core/appfw/ui-gadget-1" revision="ab0617e134e4a5bc233529b9c32fbd2467de1cd0"/>
-  <project groups="common" name="platform/core/appfw/vconf" revision="ddfbfa59068a46999afcd645dda13a73680c825c"/>
-  <project groups="common" name="platform/core/appfw/vconf-buxton" revision="2642f75ff56d77772cc40c28a60bae31b2f30047"/>
+  <project groups="common" name="platform/core/appfw/vconf-buxton" revision="4f8aa683eeb070c129dd3419e218bb24f61b5c55"/>
   <project groups="common" name="platform/core/appfw/vconf-internal-keys" revision="9d1f756ba5062a60eeea11cf0b2b7fd60461bcf5"/>
   <project groups="common" name="platform/core/appfw/xdgmime" revision="b4465f4d82bb133688ca5cf67ca3b5a18af55ab4"/>
   <project groups="common" name="platform/core/base/bundle" revision="71b36b170c377bfd15cb5601c49340ba95a1a30d"/>
@@ -121,6 +118,7 @@
   <project groups="common" name="platform/core/connectivity/data-router" revision="153de0caca2abec6c47f245960b115a98cdc09c7"/>
   <project groups="common" name="platform/core/connectivity/libnet-client" revision="792489ba4fb299c6f4bf7b54dae415afe3cdf8ae"/>
   <project groups="common" name="platform/core/connectivity/libwifi-direct" revision="0371caae5f0c66a74501c1fd44ad398cee16b31d"/>
+  <project groups="common" name="platform/core/connectivity/mobileap-agent" revision="9b0016fae754956985eca418e5e78596661fce85"/>
   <project groups="common" name="platform/core/connectivity/net-config" revision="cec997fc07d2c83bb6b50478c0fc69a881999e08"/>
   <project groups="common" name="platform/core/connectivity/nfc-manager-neard" revision="a21fc3b95bf4d8bf2ffa14d74e7ae47d079acc84"/>
   <project groups="common" name="platform/core/connectivity/smartcard-plugin-nfc" revision="aa26b3c381eb1126e23f89130c1be565612335eb"/>
@@ -133,27 +131,27 @@
   <project groups="common" name="platform/core/location/liblocation-appman" revision="9c5ae69df8adb268504ac86aa5681a4a1ffa6c0a"/>
   <project groups="common" name="platform/core/location/libslp-location" revision="1aa8b73536fb11c8ef538391b495ed1c88c9fa70"/>
   <project groups="common" name="platform/core/messaging/email-service" revision="c7c9bb84adb23a353a5447ba5ba8e93a5a98f57d"/>
-  <project groups="common" name="platform/core/messaging/msg-service" revision="1badb05ba01a5c2c1c9b086bd4c5eba8ffab2800"/>
+  <project groups="common" name="platform/core/messaging/msg-service" revision="49062449c90d7693fa2ade5d07146ed704b54ee0"/>
   <project groups="common" name="platform/core/multimedia/alsa-scenario-0.2" revision="8a7abb902764c6afdd4c3fab4d0ac29716117207"/>
   <project groups="common" name="platform/core/multimedia/audio-session-manager" revision="ee4096c72a636cd1112a62903fefb0432e720bea"/>
   <project groups="common" name="platform/core/multimedia/avsystem" revision="6c769f64f84c1bfaa8a05d9ca9288cd13b8cb700"/>
   <project groups="common" name="platform/core/multimedia/libcamsrcjpegenc" revision="8978d60f7056ec5b45a89814346c54b576dcc52c"/>
   <project groups="common" name="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" revision="24a642db5962e1fd91573eaea766fbf23f42fd1d"/>
   <project groups="common" name="platform/core/multimedia/libmedia-service" revision="1c6f7e60ed7b2ac21cb63f066406664c9b758397"/>
-  <project groups="common" name="platform/core/multimedia/libmedia-thumbnail" revision="151e80819e477531d205d019994d3be8e9dedfd3"/>
+  <project groups="common" name="platform/core/multimedia/libmedia-thumbnail" revision="48eeb53f7db6e098cc8a840ca6c0680c1dc6c991"/>
   <project groups="common" name="platform/core/multimedia/libmm-camcorder" revision="6a0e412056d6529e1e90c29eb086501b86e6656f"/>
   <project groups="common" name="platform/core/multimedia/libmm-common" revision="b278ce78e1bdad66d46a051ec0258c13fbf85032"/>
   <project groups="common" name="platform/core/multimedia/libmm-fileinfo" revision="4ffa938eeab04aef98fa728683bd54687420baff"/>
   <project groups="common" name="platform/core/multimedia/libmm-log" revision="e3f09278c8a4aff3208aed8a23bcccf8d8af7542"/>
-  <project groups="common" name="platform/core/multimedia/libmm-player" revision="8f4af57e7114563751b94eab19a978f45e403a39"/>
+  <project groups="common" name="platform/core/multimedia/libmm-player" revision="8a552eb4a84d4edd94515ef889d09e589e76a1ec"/>
   <project groups="common" name="platform/core/multimedia/libmm-radio" revision="1c3443edde98c0724e4275240be71b8cac87aeea"/>
   <project groups="common" name="platform/core/multimedia/libmm-session" revision="7976f6b9ab618982fe475f5ed0d96a9f5ade20d9"/>
   <project groups="common" name="platform/core/multimedia/libmm-sound" revision="df69bc7f76004539b58603a0e8b54e2606b33a7e"/>
   <project groups="common" name="platform/core/multimedia/libmm-ta" revision="d4cf22487676cd686fc7344972b52a8e045525f9"/>
   <project groups="common" name="platform/core/multimedia/libmm-utility" revision="4295b93e417e4734c90639d20ff6c60b110172d7"/>
   <project groups="common" name="platform/core/multimedia/media-data-sdk" revision="97ed47042e1de6b7dbd4ca33725ce77bfab6b9dc"/>
-  <project groups="common" name="platform/core/multimedia/media-server" revision="7ebced8ce255ad0b5c81b2b21284a680e580e1e9"/>
-  <project groups="common" name="platform/core/multimedia/mmfw-sysconf" revision="35579f7e91b80b22fd072757c962e2c85b7bf948"/>
+  <project groups="common" name="platform/core/multimedia/media-server" revision="3373947725625f89d7c7371a14c8dd07239a0af7"/>
+  <project groups="common" name="platform/core/multimedia/mmfw-sysconf" revision="507d570f713504ccab92c235888938719495d2c4"/>
   <project groups="common" name="platform/core/multimedia/tinycompress" revision="0da814597b847b80eac626071b2132887a78385f"/>
   <project groups="common" name="platform/core/pim/calendar-service" revision="8329a2a463edae1e65d5020eab197a7fa2ad6e98"/>
   <project groups="common" name="platform/core/pim/contacts-service" revision="fdb9d594c9a1df21fe55f25e18f8d61876dfc7bc"/>
@@ -163,20 +161,20 @@
   <project groups="common" name="platform/core/security/ca-certificates-tizen" revision="7bb7ed313e91c42a57f2abf3560ce4db5baa9a4b"/>
   <project groups="common" name="platform/core/security/cert-svc" revision="be15af403e344defdfc93d8cd3994a6c3fa2a688"/>
   <project groups="common" name="platform/core/security/cert-svc-ui" revision="17a6f1478429577720f0f17ac039b6ccc6b0aed3"/>
-  <project groups="common" name="platform/core/security/cynara" revision="f6b56bde436b388868cf868f209d954bb398eb0e"/>
-  <project groups="common" name="platform/core/security/default-ac-domains" revision="e0e07131d5999d39f5ab3ea5f54bf83e81abafc3"/>
+  <project groups="common" name="platform/core/security/cynara" revision="ebb4ec1825e30861541a628433826df4a0280154"/>
+  <project groups="common" name="platform/core/security/default-ac-domains" revision="32943cdd8c172380322d4dd4a51f3d9bf9a29849"/>
   <project groups="common" name="platform/core/security/drm-client" revision="fe8dfafce86716d18f727492175896a50969923b"/>
   <project groups="common" name="platform/core/security/dukgenerator" revision="dba9f75b65f93b0139eb79e634252ce7a7c8d06d"/>
   <project groups="common" name="platform/core/security/hash-signer" revision="286e2d73204debfc64c18fa81fce195f8a15aca0"/>
   <project groups="common" name="platform/core/security/key-manager" revision="0333a2cd544783a3c081e99086fa6f5f8c86eb17"/>
   <project groups="common" name="platform/core/security/libcryptsvc" revision="b06a7cd7784d37e9e6608a3459e3fb3419b22f4e"/>
-  <project groups="common" name="platform/core/security/libprivilege-control" revision="e613fc4d3632b7cc79187ade3186d1e07ec79170"/>
+  <project groups="common" name="platform/core/security/libprivilege-control" revision="02e047c543cc35b40f0a59c81f65570cc557038e"/>
   <project groups="common" name="platform/core/security/privacy-manager" revision="daacf33c44e7867fe2f8daa16574334c8b01c952"/>
   <project groups="common" name="platform/core/security/privilege-checker" revision="7b601e76415726104630ef77701c67304cb2db32"/>
   <project groups="common" name="platform/core/security/secure-storage" revision="526d1697f81a506c2950bf0ccf54bb5c86eefa40"/>
-  <project groups="common" name="platform/core/security/security-manager" revision="3dec492df1a5a937ceed39c4985d9659860e5783"/>
+  <project groups="common" name="platform/core/security/security-manager" revision="860305a595d681d650024ad07b3b0977e1fcb0a6"/>
   <project groups="common" name="platform/core/security/security-server" revision="b343312151d329a5fed8a5fd91f54e4bc5c96e64"/>
-  <project groups="common" name="platform/core/system/deviced" revision="39047d8a0460ee4b8bb8e4c04012b367e02c41a2"/>
+  <project groups="common" name="platform/core/system/deviced" revision="ba3235b852d4a0efbb017b3ba0b9c4e959d5ec21"/>
   <project groups="common" name="platform/core/system/dlog" revision="c43bce370f4aaa09f48df4e2c1d2b99f133526d0"/>
   <project groups="common" name="platform/core/system/haptic-module-tizen" revision="dd2a75f90849a6c25f62a137222b9a81f935575d"/>
   <project groups="common" name="platform/core/system/libdevice-node" revision="04fd20f5a06355fc0afe110337ccb9dc7445ad1d"/>
@@ -185,9 +183,9 @@
   <project groups="common" name="platform/core/system/oma-ds-agent" revision="16dd30cb7b9c86bc5744ff170f45683d5c76ac0c"/>
   <project groups="common" name="platform/core/system/sensord" revision="33a40709f3c14b366204925f0bddd2b87c73bb70"/>
   <project groups="common" name="platform/core/system/svi-data" revision="c675f95097b16b3865e2eb74b270dbdf61cb79ae"/>
-  <project groups="common" name="platform/core/system/sync-agent" revision="fabf93527db6fbe8305691210093de62e69500eb"/>
+  <project groups="common" name="platform/core/system/sync-agent" revision="77e46d9609b3263f5c039ccafdce1df31b13a0d3"/>
   <project groups="common" name="platform/core/system/sys-assert" revision="b9e72e69d20f6c06f0f17eb14e2ff820012523b5"/>
-  <project groups="common" name="platform/core/system/tlm" revision="e341ea06e6b673d034258456e68966e7dfe2beb5"/>
+  <project groups="common" name="platform/core/system/tlm" revision="ca9819dadf03e53374560464298720583319e0ef"/>
   <project groups="common" name="platform/core/telephony/libtapi" revision="16c6314e7e71542ee8bb3f51cc22259e57d27837"/>
   <project groups="common" name="platform/core/telephony/libtapi-legacy" revision="8b002849deb1ec476e2bb6ab3cafd9a328253dce"/>
   <project groups="common" name="platform/core/telephony/libtcore" revision="d42c91c28efb1442cfe4b03a463434f2238dcd1a"/>
@@ -200,11 +198,11 @@
   <project groups="common" name="platform/core/telephony/tel-plugin-vconf" revision="356a55dc0d6639a6d8d87e5ac1d96ee7a00ea913"/>
   <project groups="common" name="platform/core/telephony/tel-plugin-vmodem" revision="184d775afd0dd5a11267a8572fabd0e477102e94"/>
   <project groups="common" name="platform/core/telephony/telephony-daemon" revision="50a6417441040bb7a07ac24903ee1e628f4f14ad"/>
-  <project groups="common" name="platform/core/uifw/anthy" revision="5e7a08ab59c9c1f97eb4fa7e05c4c8dd30ed1753"/>
-  <project groups="common" name="platform/core/uifw/dali-adaptor" revision="eeb3965558d7cdb6c2b3083398b6a5c38d0744fa"/>
-  <project groups="common" name="platform/core/uifw/dali-core" revision="685219606dc78f09fbf9dcf0f93e8ba8fb7d3a74"/>
-  <project groups="common" name="platform/core/uifw/dali-demo" revision="306cdf28d22f8e1fd3b82f876e2d00993d7d0699"/>
-  <project groups="common" name="platform/core/uifw/dali-toolkit" revision="def7578fe3e853608467f874d11e0878c6917cf2"/>
+  <project groups="common" name="platform/core/uifw/anthy" revision="1369566482cb144bb3b7c79f49233db24fa016a4"/>
+  <project groups="common" name="platform/core/uifw/dali-adaptor" revision="c2f4fd007a2cf9fac13d55dad89e80a4f5231844"/>
+  <project groups="common" name="platform/core/uifw/dali-core" revision="8494c05509a5391d3337d64db925282e53b60423"/>
+  <project groups="common" name="platform/core/uifw/dali-demo" revision="e6f2fd5c274926b98c1a189650e7f9548eca74ac"/>
+  <project groups="common" name="platform/core/uifw/dali-toolkit" revision="12abbd996128aa2bc08677041f957938bee72245"/>
   <project groups="common" name="platform/core/uifw/efl-assist" revision="2659fedd5554aa32ddc72c3ff4c7a11c759cfd36"/>
   <project groups="common" name="platform/core/uifw/efl-theme-tizen" revision="583598df2aeb21a296cacbbbfffdff14ae595d7f"/>
   <project groups="common" name="platform/core/uifw/elm-misc" revision="6e9f21b880f9c26944ad26aee54c55e303770192"/>
@@ -212,9 +210,9 @@
   <project groups="common" name="platform/core/uifw/libtbm" revision="11932fc0f5e364dfa3248afb45425fbccc073574"/>
   <project groups="common" name="platform/core/uifw/stt" revision="a53b10be804cea996e4a59315e48dc4e2dcb0e4c"/>
   <project groups="common" name="platform/core/uifw/tts" revision="8c242a73c16bd4d205854b39c7886c4f3c0bcf7a"/>
-  <project groups="common" name="platform/framework/web/crosswalk" revision="0ebb8bb3a5c23bfd58285465068305d4bda2f5b8"/>
-  <project groups="common" name="platform/framework/web/download-provider" revision="c755d55a2b084c5e787ce6b34f91b64cbe4bfbb5"/>
-  <project groups="common" name="platform/framework/web/tizen-extensions-crosswalk" revision="61348858a072a1f39977459a8195215ed8db7d0f"/>
+  <project groups="common" name="platform/framework/web/crosswalk" revision="17561606f311ebe484cf59c392575860259d9443"/>
+  <project groups="common" name="platform/framework/web/download-provider" revision="1ea0b1f2511a57e92dc3ed69e0ed3d737d48d9c9"/>
+  <project groups="common" name="platform/framework/web/tizen-extensions-crosswalk" revision="27e14ab50148bc2b748b33d09be0ef4cf1709bcb"/>
   <project groups="common" name="platform/framework/web/wrt-commons" revision="5ba6ba79cde39403be4b6c34ca33f3fb6abc9ae8"/>
   <project groups="common" name="platform/upstream/SDL" revision="4d89ad03125cc7ee9c9cadf07807dff9bf26980f"/>
   <project groups="common" name="platform/upstream/acl" revision="3d85f4077c72de04f46b1c526aa2c2cde71ccc21"/>
@@ -233,7 +231,7 @@
   <project groups="common" name="platform/upstream/autoconf213" revision="21db2b3894d31911828c934bb115eeb585c2b1bd"/>
   <project groups="common" name="platform/upstream/automake" revision="6c60f3e98d61f62835bb8dcd678b0e0fb8150792"/>
   <project groups="common" name="platform/upstream/avahi" revision="46ef830da62a415aa6bbb0a175bbc88384f6d605"/>
-  <project groups="common" name="platform/upstream/bash" revision="7ff93c1c8f31a87f0b5a006fd0fdef359d64e54e"/>
+  <project groups="common" name="platform/upstream/bash" revision="54a129444c811c8a9f8733bf8331b408b21359e0"/>
   <project groups="common" name="platform/upstream/bc" revision="8fc7e53b3619f2b408cc76be665cae1dbf4fca4d"/>
   <project groups="common" name="platform/upstream/bison" revision="c96ff6807f36699c2db2ec88e73405d50be525be"/>
   <project groups="common" name="platform/upstream/bluez" revision="ccb69ca94573c9863fe6324d77dae73ef7c01393"/>
@@ -244,7 +242,7 @@
   <project groups="common" name="platform/upstream/build" revision="189d4632a48ce0067abd6877679391b5930b41e8"/>
   <project groups="common" name="platform/upstream/build-compare" revision="13bb17efea0eddcb3c480dc60aed07e6412e315a"/>
   <project groups="common" name="platform/upstream/busybox" revision="7a155c3c0ef5854e62afa03ef73800eee922a567"/>
-  <project groups="common" name="platform/upstream/buxton" revision="9c02cdffa6715321442e6cbe9dfb0601f2441c76"/>
+  <project groups="common" name="platform/upstream/buxton" revision="1928d4a55d37da0fdd038dd69b84367c084e0072"/>
   <project groups="common" name="platform/upstream/byacc" revision="9d141d7b7d92f69ceef9ec32cb9fbd3df03ed581"/>
   <project groups="common" name="platform/upstream/bzip2" revision="0f73b0ff1343a9a3e6530984499cd2498992244c"/>
   <project groups="common" name="platform/upstream/c-ares" revision="cbe8b82a6854d8ff4a306ae3240a6606a3d1090a"/>
@@ -260,7 +258,7 @@
   <project groups="common" name="platform/upstream/cloog-isl" revision="764b7692a8773390e6734571b07f74ffa43155d1"/>
   <project groups="common" name="platform/upstream/cmake" revision="20dea7b85782721a203bac92d90a4544a76b8e00"/>
   <project groups="common" name="platform/upstream/connman" revision="49bf3069eac66068f5488ccaa885671f5e76ff9c"/>
-  <project groups="common" name="platform/upstream/coreutils" revision="396ecab62fe806d6e7881989a2debccaed6378b0"/>
+  <project groups="common" name="platform/upstream/coreutils" revision="ce5baf0366d5ce190324dbacca335a3d27ada9b2"/>
   <project groups="common" name="platform/upstream/corewatcher" revision="0403348ce6d3052a5d29a40f9597143cfadb329e"/>
   <project groups="common" name="platform/upstream/cpio" revision="de4710ca16b9e425e899fc310ec7a6204a119e9d"/>
   <project groups="common" name="platform/upstream/crda" revision="60deedc8824dec51c932883929e753b29d057a24"/>
@@ -297,8 +295,8 @@
   <project groups="common" name="platform/upstream/ed" revision="2ba5796fce411581d0f0a0b1339e18537a3626b7"/>
   <project groups="common" name="platform/upstream/edbus" revision="f988bbb48d8894e47d9166ebb966e51fd2f32942"/>
   <project groups="common" name="platform/upstream/efi-shell" revision="53b6e6a59db79b6978508f69c6e9712449f38abf"/>
-  <project groups="common" name="platform/upstream/efl" revision="2fa6853be7502ebfb2f465a0be4245b5b0fec3ce"/>
-  <project groups="common" name="platform/upstream/elementary" revision="4fb452142aef6691a40025699d8579cf23120c98"/>
+  <project groups="common" name="platform/upstream/efl" revision="02eb31c2931d629072c95e73aaf7b9e757ebabef"/>
+  <project groups="common" name="platform/upstream/elementary" revision="0d21f750a7b9bd09e896ada235518bfea9735b7b"/>
   <project groups="common" name="platform/upstream/elfutils" revision="10e39d1bc97967e626220064a88bd2ae464ee631"/>
   <project groups="common" name="platform/upstream/emulator-macros" revision="cfa44635164265eb9a06a9ec13642aadfa3d5b69"/>
   <project groups="common" name="platform/upstream/enchant" revision="f7290c9bbb4eeca3770e6da076bbb62cb270d9a0"/>
@@ -308,7 +306,7 @@
   <project groups="common" name="platform/upstream/expat" revision="99d17dd3e4c91dc5874e971c65b9de0260ef7eb4"/>
   <project groups="common" name="platform/upstream/expect" revision="579d1c972c9603cfc5bdfad2a1397ae1ba4cbb2d"/>
   <project groups="common" name="platform/upstream/fdupes" revision="796ff677d7ed1bdd2fb8d3b48572dba6a8e111f6"/>
-  <project groups="common" name="platform/upstream/file" revision="f27e492e300d1563343d83a0764475ceb077790d"/>
+  <project groups="common" name="platform/upstream/file" revision="b450849bb0aad0ab5d00c84f5c1b69abc05f4cad"/>
   <project groups="common" name="platform/upstream/filesystem" revision="3d78fa1be1a8a698787e58853cac48e6e2bfd163"/>
   <project groups="common" name="platform/upstream/findutils" revision="50dcafac93505d934b0fe9716911cfbb5b78c83e"/>
   <project groups="common" name="platform/upstream/flac" revision="8fc4ea16ad857e1e927fde29f99d6fb49d6a5055"/>
@@ -350,7 +348,7 @@
   <project groups="common" name="platform/upstream/gptfdisk" revision="6f943e483ea9e6b4d6fb495de1048aae3840765d"/>
   <project groups="common" name="platform/upstream/grep" revision="d9aa4f5e7923011c4f6b11cce12135aa716a0676"/>
   <project groups="common" name="platform/upstream/groff" revision="53a1b2023445e29cebfd23db3a9ed6dd04790cc2"/>
-  <project groups="common" name="platform/upstream/gsignond" revision="72a29a61fa5b545cff6422f01a8cd56c138ab089"/>
+  <project groups="common" name="platform/upstream/gsignond" revision="51aa347ee820a6e338f2523a95685bcf3de92650"/>
   <project groups="common" name="platform/upstream/gsignond-plugin-oauth" revision="99a4739a3bef26261ea7e8fa165f3ee87418d064"/>
   <project groups="common" name="platform/upstream/gsignond-plugin-sasl" revision="b96426197f13e7a3e97fd4e5219e33fe30dbca88"/>
   <project groups="common" name="platform/upstream/gst-common" revision="4c9bfc97fbfcdd17eb2dc3fa2138df35af0da49a"/>
@@ -358,13 +356,13 @@
   <project groups="common" name="platform/upstream/gst-omx" revision="cf5eac9699e4997cae3693e7d68022c31eccd32a"/>
   <project groups="common" name="platform/upstream/gst-plugins-bad" revision="3a0269b572e9023c2230920fbe802143800a9e28"/>
   <project groups="common" name="platform/upstream/gst-plugins-base" revision="1f2b77abc7cab73e9e8304665da692c47c4f0039"/>
-  <project groups="common" name="platform/upstream/gst-plugins-good" revision="8f0b0692d7af503e6e67e191746c067b7150603d"/>
+  <project groups="common" name="platform/upstream/gst-plugins-good" revision="53fdb219124ebb842eb0978406d577b6541eb5b3"/>
   <project groups="common" name="platform/upstream/gst-plugins-ugly" revision="fc9d381b1947239d5835384739f7178e6c744fe4"/>
   <project groups="common" name="platform/upstream/gstreamer" revision="98f6409ad654e5fbd781d54048b95fb81e9b12aa"/>
   <project groups="common" name="platform/upstream/gstreamer-vaapi" revision="6857c35fe2302706ee855f491e1be86a65f0494d"/>
   <project groups="common" name="platform/upstream/gtest" revision="c50618042eed292a2fa9b9abb4a6db76a366dc74"/>
   <project groups="common" name="platform/upstream/gtk-doc" revision="280210cae6389e64b42a43bf70eafc1c6a490084"/>
-  <project groups="common" name="platform/upstream/gumd" revision="ab5ca6df8c16ea719bded3889b137b4abc14d7af"/>
+  <project groups="common" name="platform/upstream/gumd" revision="654a56005bcfedb8b5979505abcec78772dda78a"/>
   <project groups="common" name="platform/upstream/gummiboot" revision="64eee6dd93de8bcfe4ae79c8b5bfd39126a86716"/>
   <project groups="common" name="platform/upstream/gzip" revision="f6b2c04d88d9b8111eaa953b1d3166d521fcb6c3"/>
   <project groups="common" name="platform/upstream/hardlink" revision="c2f4fbf2d17d9b2467ae1d015505490c3df92d3d"/>
@@ -384,6 +382,7 @@
   <project groups="common" name="platform/upstream/iniparser" revision="42358b2425b18976b324e773bd780342f6f57fcd"/>
   <project groups="common" name="platform/upstream/intel-gpu-tools" revision="72d18b36ff54be8bb08fbb67fa025465d1c44add"/>
   <project groups="common" name="platform/upstream/intltool" revision="97ec869cac06ac7c217e9f012d175dc624ab5e3f"/>
+  <project groups="common" name="platform/upstream/iotivity" revision="bd92ecb1396212c01ea92b3388926005705e3627"/>
   <project groups="common" name="platform/upstream/iproute2" revision="9be16ded28cee6c6a822e9b5a30cf781e414c9a3"/>
   <project groups="common" name="platform/upstream/iptables" revision="7b236962701986a050ddb9bad288231f56bb5505"/>
   <project groups="common" name="platform/upstream/iputils" revision="b0210be24c39f27e7d5b8929dd667e4c562194c8"/>
@@ -416,7 +415,7 @@
   <project groups="common" name="platform/upstream/libcap-ng" revision="f78c1fda9fbc4dff23280b0f1c5be9b997340892"/>
   <project groups="common" name="platform/upstream/libdaemon" revision="7bc845d5036f91acbf65ce5c1f57974295cf22b4"/>
   <project groups="common" name="platform/upstream/libdatrie" revision="4abf32a6e72e18fc6e9cf459825ff39cd5b29305"/>
-  <project groups="common" name="platform/upstream/libdrm" revision="d772cc515a24fe015db183e91e85d74dba4f1549"/>
+  <project groups="common" name="platform/upstream/libdrm" revision="4a9274d5eff61a9632fa59b360f0aee7643405e6"/>
   <project groups="common" name="platform/upstream/libedit" revision="8943aab506406b69a5ce16bd2292741d61b46804"/>
   <project groups="common" name="platform/upstream/libelf0" revision="f074ad917fb2e8717cb0e985a7a93049c38c783e"/>
   <project groups="common" name="platform/upstream/libevdev" revision="35ce0c2924546ba588a786f1a78745206978ade7"/>
@@ -428,7 +427,7 @@
   <project groups="common" name="platform/upstream/libgee" revision="24bb6db9d4111a80493e5658b746c34ab80f4dbc"/>
   <project groups="common" name="platform/upstream/libgpg-error" revision="e95f4d0d89ee6902b010d0fcddf8609ed33ae20a"/>
   <project groups="common" name="platform/upstream/libgsasl" revision="edbe0cde3ef2bf4bc1248f053ddcf210fb27f2b3"/>
-  <project groups="common" name="platform/upstream/libgsignon-glib" revision="09502b1c5ce5f901be78bbae6eea19606252abc0"/>
+  <project groups="common" name="platform/upstream/libgsignon-glib" revision="2d2df0c1b8d8f814b1342187538fb24a276fa1e8"/>
   <project groups="common" name="platform/upstream/libical" revision="98cd6400601ddc3aff1e48315c7ca74be6517fb4"/>
   <project groups="common" name="platform/upstream/libidn" revision="74e8b53e1da2f136d54f937a7a81ee87417943d3"/>
   <project groups="common" name="platform/upstream/libijs" revision="94d81079cc3cee8d4424d9f1984313ce79109eed"/>
@@ -472,7 +471,7 @@
   <project groups="common" name="platform/upstream/libvorbis" revision="1a9e095b934a481907db632d0cae53a65604005d"/>
   <project groups="common" name="platform/upstream/libvpx" revision="52fa6ddb22eb83b341ebd347ecd48abbd31f0592"/>
   <project groups="common" name="platform/upstream/libwbxml2" revision="549574b031e0796f9708a91239b06297f1c88653"/>
-  <project groups="common" name="platform/upstream/libwlmessage" revision="8b80a7ea57d818510ef386e296676b3356aecbf5"/>
+  <project groups="common" name="platform/upstream/libwlmessage" revision="65ae4ac8844bd1eb0baab85dd210929ffd34e2b8"/>
   <project groups="common" name="platform/upstream/libxkbcommon" revision="d67ca1e52470f1767b113f10b8afeb6db200dffb"/>
   <project groups="common" name="platform/upstream/libxml2" revision="e52e7cd8d3553116787eb0573f3b3d379f09698a"/>
   <project groups="common" name="platform/upstream/libxslt" revision="925059ca6aa063c9640e82ad4f40be2e38959aa8"/>
@@ -493,10 +492,10 @@
   <project groups="common" name="platform/upstream/lzo" revision="a97fbf725aa75db53756b59df6888e59b47c931d"/>
   <project groups="common" name="platform/upstream/lzop" revision="5b56bd67c8ad4362c62c08cbe09d76f8db558638"/>
   <project groups="common" name="platform/upstream/m4" revision="074d45519485251bc1c4c94736dc42a05b60ee88"/>
-  <project groups="common" name="platform/upstream/make" revision="21658677824120cc59e0327b164f73afc02df21b"/>
+  <project groups="common" name="platform/upstream/make" revision="eafde6e5e4e2007051da79081da75fcc70284e4a"/>
   <project groups="common" name="platform/upstream/makedepend" revision="688f63d6504a12ca436e958e39d90d642b48cd9a"/>
   <project groups="common" name="platform/upstream/man-db" revision="c521d788537b4186afd5ab2f108f424a57b97aa4"/>
-  <project groups="common" name="platform/upstream/meta-generic" revision="e522d4cf9da2f3b129afffdb4c3ad150b81dd40a"/>
+  <project groups="common" name="platform/upstream/meta-generic" revision="1b3f252219abbe5e61c5e3e15c1d62296af0dfc5"/>
   <project groups="common" name="platform/upstream/mic" revision="0b69fa5ca60d588cfd27997b3c4e9d5dcb7cb77e"/>
   <project groups="common" name="platform/upstream/mkfontdir" revision="5e93b821fa2cbf208952a883b1587d1265276fd9"/>
   <project groups="common" name="platform/upstream/mkfontscale" revision="8ca716b0b6d071d255bdd1618da236100430bb16"/>
@@ -507,6 +506,7 @@
   <project groups="common" name="platform/upstream/mtdev" revision="3a927f76478a7b11e535019c6afd004660a6309a"/>
   <project groups="common" name="platform/upstream/mtools" revision="4dcff0f04476b693d515206c9757dba596a9f621"/>
   <project groups="common" name="platform/upstream/multipath-tools" revision="a9cfb637c69c887835af08f2f24d367e15c98b0e"/>
+  <project groups="common" name="platform/upstream/murphy" revision="da07ee69267b4557028357eae802d2a7a57c34e7"/>
   <project groups="common" name="platform/upstream/nano" revision="512287cadcc31d9bc0a5702ff4ca5aa5155d7fd2"/>
   <project groups="common" name="platform/upstream/nasm" revision="94a986271c4f63a840eb3a290b3b587a0545c979"/>
   <project groups="common" name="platform/upstream/ncurses" revision="eb364a2d81276b874d9b357df7e545765e08313b"/>
@@ -524,7 +524,7 @@
   <project groups="common" name="platform/upstream/openal-soft" revision="3d48b01fa5a83dc4e861130af44255af71a14466"/>
   <project groups="common" name="platform/upstream/openconnect" revision="438d487626a37f1d4e5c1430328220bce5efb35e"/>
   <project groups="common" name="platform/upstream/opencore-amr" revision="72a792824e352ad4084c3729154a444f57b7b8bb"/>
-  <project groups="common" name="platform/upstream/openssh" revision="e7ba9e196f62d7edb4347283d04e52d9d004dbe9"/>
+  <project groups="common" name="platform/upstream/openssh" revision="6461d25127e46b1efeb86365d8f650044c07857a"/>
   <project groups="common" name="platform/upstream/openssl" revision="8b0a7425a704956f5a447cf00296a98f4c223a5e"/>
   <project groups="common" name="platform/upstream/orc" revision="6325bf5d680d793e15287dda9803d6fb59ccac31"/>
   <project groups="common" name="platform/upstream/p11-kit" revision="92fbaa83a0cd9b705946df8adb7ba4fe168b0841"/>
@@ -575,7 +575,7 @@
   <project groups="common" name="platform/upstream/psmisc" revision="8bdb3e71794f16a084afd48ef0fd713e30385558"/>
   <project groups="common" name="platform/upstream/pth" revision="0ca5a10d4f4864a6232d18078065f87c20018298"/>
   <project groups="common" name="platform/upstream/pulseaudio" revision="51582f0db7fd0be6e5decf1ee11349f8bfcf4b53"/>
-  <project groups="common" name="platform/upstream/pwdutils" revision="72b13deed36e33bb42736869bf6c2839e41b7c7e"/>
+  <project groups="common" name="platform/upstream/pwdutils" revision="65d3eb901a5c0f0e108fc0c60adefe6e75dfbe7d"/>
   <project groups="common" name="platform/upstream/pygobject2" revision="ab8bccfcb4b6be6d38390d730780d82c56c77308"/>
   <project groups="common" name="platform/upstream/python" revision="b1af78eddef3a62e05894dc97e0a29b40a6adf58"/>
   <project groups="common" name="platform/upstream/python-Cheetah" revision="233a54fa2616d3b19b7559e1a77ed64163fcbcf3"/>
@@ -599,7 +599,7 @@
   <project groups="common" name="platform/upstream/python-setuptools" revision="556fe37505b60a30d7e053d95d8a9aeb789a7b30"/>
   <project groups="common" name="platform/upstream/python-sqlite" revision="1790f105a2c4130762e24f87060aaf1a78e22616"/>
   <project groups="common" name="platform/upstream/python-urlgrabber" revision="0acddc325ed11e1d6cbed796a0a4adb4bdb67412"/>
-  <project groups="common" name="platform/upstream/qemu" revision="aa0e4ea04629523d89adc4886e671e4fa0142899"/>
+  <project groups="common" name="platform/upstream/qemu" revision="d87b41dfcba408d7f9e34461226e6b7fc07b400c"/>
   <project groups="common" name="platform/upstream/qpdf" revision="0561f388f298abbf6d6cebe3aafbb71f22b2d61e"/>
   <project groups="common" name="platform/upstream/ragel" revision="17ed260cfad50c82495daeca85d52bbb243cd2a2"/>
   <project groups="common" name="platform/upstream/raptor" revision="1bb91f5afced6ecc519540b159dcfb6abf607017"/>
@@ -621,15 +621,15 @@
   <project groups="common" name="platform/upstream/screen" revision="6359229f6da39049252e710221096629ef40ee89"/>
   <project groups="common" name="platform/upstream/sed" revision="adda85a8b5103f70e58b14ecfced576d305ded93"/>
   <project groups="common" name="platform/upstream/sessreg" revision="59d6be87da03db7979f316eb886e95d68dbd2eaa"/>
-  <project groups="common" name="platform/upstream/setup" revision="cd4df399f9f827061f556f6de64c20f2ad48f99c"/>
+  <project groups="common" name="platform/upstream/setup" revision="cf787608ae54dfb1fda79de2e6b201ec42ab49a5"/>
   <project groups="common" name="platform/upstream/sgml-common" revision="8d592259b2a59dbadf2b819f8ccc1af4100f7fec"/>
   <project groups="common" name="platform/upstream/sgml-skel" revision="a3c551b81491f43c7e3540f3d3a893ffcf3a0cce"/>
   <project groups="common" name="platform/upstream/shared-mime-info" revision="b3d6d91768efdf508c2b8fe2cd069b1334a1c272"/>
   <project groups="common" name="platform/upstream/signonui-efl" revision="1a16bf08de4f6e641f95048c2968132f9aeee2f8"/>
-  <project groups="common" name="platform/upstream/smack" revision="66a110344be79ff2968ff6817ec72f569d852c17"/>
+  <project groups="common" name="platform/upstream/smack" revision="0bd2831dae7500fcfc080519ded5ae2bf6752226"/>
   <project groups="common" name="platform/upstream/snapper" revision="de72b5b33937139abacfdc778f489fb5daf67ece"/>
   <project groups="common" name="platform/upstream/speex" revision="07717be8159a192033af8e6777bf988234019352"/>
-  <project groups="common" name="platform/upstream/sqlite" revision="6d3eef95de5a510d5b5d1ab49db7ed5dc806d6e6"/>
+  <project groups="common" name="platform/upstream/sqlite" revision="eaab39ee8108f7c133d9e4e22b432f4be78c9acb"/>
   <project groups="common" name="platform/upstream/squashfs" revision="c06efd7649f50d77ad9b0e21d22416d2f383b6c6"/>
   <project groups="common" name="platform/upstream/strace" revision="642726b9b300392ca7eff6d0eaa7737e4e7aa8bf"/>
   <project groups="common" name="platform/upstream/sudo" revision="d1496cc120b9a1e8bb0b037827ceb502f47e3282"/>
@@ -639,7 +639,7 @@
   <project groups="common" name="platform/upstream/sysfsutils" revision="e9dfe180eb604903471f538bc4d15e8423754c3a"/>
   <project groups="common" name="platform/upstream/syslinux" revision="895eeefb13420b6621fbf5b6d8373ee6f2f4b32f"/>
   <project groups="common" name="platform/upstream/sysprof" revision="510029309bfa269fa9d58ebb7e3e93b7d1b2b432"/>
-  <project groups="common" name="platform/upstream/systemd" revision="86ccc420499f272fb173afe7bc27541c25b414f3"/>
+  <project groups="common" name="platform/upstream/systemd" revision="bdf47ae6bd22cdeacb005251604325ca45c00403"/>
   <project groups="common" name="platform/upstream/tar" revision="53b1109fe706ba91da70eefde51a391081112a74"/>
   <project groups="common" name="platform/upstream/tcl" revision="6c50087c21321e4e55290476f27ca187e516ac48"/>
   <project groups="common" name="platform/upstream/tcpdump" revision="09a0a046c9c1bd6df1834f4f4804753bd0788785"/>
@@ -649,7 +649,7 @@
   <project groups="common" name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12"/>
   <project groups="common" name="platform/upstream/time" revision="c96806376d21e0bf7c2150ecf68c3d530572b68b"/>
   <project groups="common" name="platform/upstream/tizen-branding-default" revision="a18b947db2fd63f301f9fa9c0db6102154a5ffe9"/>
-  <project groups="common" name="platform/upstream/tizen-release" revision="dcd5633a17fd810bbd835809fab033e1ff174ae1"/>
+  <project groups="common" name="platform/upstream/tizen-release" revision="684faaba004aa99c93364e6b912a5b828d78a274"/>
   <project groups="common" name="platform/upstream/tolua++" revision="4116ac1492c7779d04e7f121f929783b93ad6725"/>
   <project groups="common" name="platform/upstream/tree" revision="fbb5e1c8a984ffc57f19a2ef3c2b1e96857f6145"/>
   <project groups="common" name="platform/upstream/tzdata" revision="9f53b1293e01c86c91009e6eea4fae189fb7d091"/>
@@ -704,29 +704,25 @@
   <project groups="common" name="platform/upstream/zypper" revision="4c8dd46f4c8d5801e6323c35c972ed8b8f1c48b5"/>
   <project groups="common" name="platform/upstream/zypper-plugin" revision="d6f3ebd459bc41f2638d4232ad323433d382f454"/>
   <project name="platform/vendor/alsa-broadcom-plugin" revision="710ec74ad495b9eaa39fbd5013cdbd1006957980"/>
-  <project name="platform/vendor/broadcom-kernel" revision="e3a5adb3bc0be1e57141d4e4195c53f9c820217e"/>
   <project name="platform/vendor/broadcom-refsw" revision="4c377faed42ef734f355012a70ae3ebae5420e89"/>
   <project name="platform/vendor/broadcom-stbgcc" revision="ae252cdc65e0748b7f0e08ff0ceac91e29f12477"/>
   <project name="platform/vendor/broadcom-stbgcc-eglibc" revision="4678304b3adbd9ae725e9237e4623227526d955e"/>
   <project name="platform/vendor/gst-plugins-brcm" revision="0129e2f3cf046abe6061dbb85648f1d4d8777335"/>
   <project name="platform/vendor/libslp-devman-nexus" revision="0d1dfdd949597ecfd43f7c4507ba6d5c19bfec79"/>
   <project name="platform/vendor/qemu-accel-arm" revision="ea9568b506a7d7ea0512d6be6b71b2f44d62811e"/>
-  <project name="platform/vendor/qemu-accel-mipsel" revision="4104f139b1906facae9a87c68a7e62a29bcc9d8f"/>
   <project name="platform/vendor/stbgcc-eglibc" revision="f88853cc1e581187eb95b1e96b3930f4c5b1ac16"/>
-  <project name="platform/vendor/stbgcc-uclibc" revision="8c29944e9d646528af13daf53a9a522775e532d6"/>
   <project name="platform/vendor/v3d-example" revision="d744a68f2bc747e62dd006519075aca31d600904"/>
   <project name="platform/vendor/wayland-egl" revision="66eae888f3f71a90dec61b3c0821f88320082dc7"/>
   <project name="platform/vendor/weston-nexus-backend" revision="50e43e0ccdffe5dcf15dc5a9e9277fa1d8c902df"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm" revision="aded215e332b91d288bdefb10a7533ef56c10fb1"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="5594b1e0dda3318c018e24f3605441fd9b110427"/>
-  <project groups="prebuilts" name="pre-built/toolchain-mipsel" revision="6d7d8bc1ac1fd9e2f837302944b3e98faf7dd039"/>
   <project groups="prebuilts" name="pre-built/toolchain-x86" revision="0b633ba7e68ae627b5ced3fdc7a109ff2af5df79"/>
-  <project groups="common" name="profile/common/desktop-skin" revision="3bf3a0b2b752147692497fdb312c935879a00d37"/>
-  <project groups="common" name="profile/common/kernel-common" revision="9e720b1bdec54c61b12bcd6bc249e86fa646c1cd"/>
-  <project groups="common" name="profile/common/meta" revision="9ae1fa7e75a934665a427f4bc484410a47b17cce"/>
+  <project groups="common" name="profile/common/desktop-skin" revision="8f7c94875b554c78a33513aeb2197fde8e301e7d"/>
+  <project groups="common" name="profile/common/kernel-common" revision="9c9196de59cbfc47d21e5f1e9941667e6d350b28"/>
+  <project groups="common" name="profile/common/meta" revision="4989ab9e5f1be35f31ead31c8069993a28953502"/>
   <project groups="common" name="profile/common/system-installer" revision="9ad1297d81423bab75cd993148ec73b104074324"/>
-  <project groups="common" name="profile/common/weston-common" revision="bba9e6c2ec15757449e129454efb97b4a16925aa"/>
-  <project groups="common" name="profile/common/wrt-widgets" revision="72afa2665266e7d34d0c0177a3ddde4d2e8a3b67"/>
+  <project groups="common" name="profile/common/weston-common" revision="15a44961f3d4285537c4c210176138b4e0368ba1"/>
+  <project groups="common" name="profile/common/wrt-widgets" revision="882ca33360066d01c1236b0f974070952bdda3e4"/>
   <project groups="common" name="profile/common/x11-common" revision="f560dcac4375632fb76234c71730aa629a90866d"/>
   <project groups="common" name="profile/extras/i2c-tools" revision="b19d79bf9028f58e3e4226bd9410b59f19fe3c8d"/>
   <project groups="common" name="profile/generic/model/config" revision="75e684c6faa9fc986415c6b76993c75d433501fb"/>
@@ -735,13 +731,11 @@
   <project groups="common" name="profile/ivi/GUPnP-AV" revision="71094b9473dad3d2a9bf7c77e5f920879fae8290"/>
   <project groups="common" name="profile/ivi/GUPnP-DLNA" revision="fcf4110293c50f0299142bc9ef56f29266fb8d78"/>
   <project groups="common" name="profile/ivi/dLeyna" revision="bced9884aef8461ee81663ad3f99d3d083cbc8cc"/>
-  <project groups="common" name="profile/ivi/libwebsockets" revision="270620a55c0144f0af05f006523f2d294298ade2"/>
-  <project groups="common" name="profile/ivi/murphy" revision="0a1ab4f2a5bb7e4be99a8eba04afffdb9f51ad4b"/>
   <project groups="meta" name="scm/meta/build-config" revision="baa4999ff1365f520dd3b4fc7a99c195dca3273c"/>
-  <project groups="meta" name="scm/meta/gbs-config" revision="a587d8ddb376354883bbd035b7de4b4220f0a947">
+  <project groups="meta" name="scm/meta/gbs-config" revision="a6d9605e5038dc2c9eb247cfdebe036f906ad694">
     <copyfile dest=".gbs.conf" src="gbs.conf"/>
   </project>
-  <project groups="common" name="sdk/target/sdbd" revision="0b68b61abe7a0882fb49ae07b44c1b2ce9fe2e23"/>
+  <project groups="common" name="sdk/target/sdbd" revision="96c289f57c4ee93a1d974da7d095209a903a9b0a"/>
   <project name="taglib" path="platform/upstream/taglib" remote="tizen-github" revision="5b776e3b07257cdc0ab51f14d267b0792e0b3bdb"/>
   <project groups="common" name="test/common/common-connectivity-suite" revision="278a64013a0eaeeb226ec38d12017c573a998786"/>
   <project groups="common" name="test/common/common-crosswalk-suite" revision="5e0f2bf507860c8333fafe06f02023f9ea0ae094"/>
