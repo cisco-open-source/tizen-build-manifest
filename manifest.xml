@@ -323,7 +323,7 @@
   <project groups="common" name="platform/upstream/fsync" revision="5e0c503d103760edc57f83f3f1e88c60a075bb2e"/>
   <project groups="common" name="platform/upstream/fuse" revision="f69e73987cb85d59ccd28d87cc265c35c2b166db"/>
   <project groups="common" name="platform/upstream/gawk" revision="9f2dfff57430e3b0a24621a953c7129e7cf5f777"/>
-  <project groups="common" name="platform/upstream/gcc" revision="1248715b2d44b123cf5b85f892a348740bdd5bbd"/>
+  <project groups="common" name="platform/upstream/gcc" revision="20b2157d1bdf9fc939f5abc6e0656f5c280310bd"/>
   <project groups="common" name="platform/upstream/gccmakedep" revision="9c7ebd9444b1c12e27cef6c7e7d4566a05488de2"/>
   <project groups="common" name="platform/upstream/gcr" revision="3d139a70d06ebf222b786a00cd6d3af2f473f4d7"/>
   <project groups="common" name="platform/upstream/gdb" revision="d4ff6a0223f8c698a8ac6884ae1462ef746d88ca"/>
@@ -609,7 +609,7 @@
   <project groups="common" name="platform/upstream/remix" revision="bcfdce550685004fdfbca004c5efcaf13c76db21"/>
   <project groups="common" name="platform/upstream/rfkill" revision="8fdd6c46986b07bc8c354f7f8e0af8b233eb4055"/>
   <project groups="common" name="platform/upstream/rng-tools" revision="ee05b3622cfdb423faedea4ebfd7fde6becfff93"/>
-  <project groups="common" name="platform/upstream/rpm" revision="83b33978aa30dbc2994ea91c78c784e8822ae81b"/>
+  <project groups="common" name="platform/upstream/rpm" revision="f40fdecb3ff2d237dc9a958efae4100b3e483b96"/>
   <project groups="common" name="platform/upstream/rpmlint" revision="8c14ae38d4a4436bbf360a14832db2954d93ac8d"/>
   <project groups="common" name="platform/upstream/rpmlint-mini" revision="0df11a70c77eac1cd2c1534e55befe7c4316f995"/>
   <project groups="common" name="platform/upstream/rpmlint-tizen" revision="f16ab02b9e5f12fdfd375351acf5ff0455c58215"/>
@@ -649,7 +649,7 @@
   <project groups="common" name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12"/>
   <project groups="common" name="platform/upstream/time" revision="c96806376d21e0bf7c2150ecf68c3d530572b68b"/>
   <project groups="common" name="platform/upstream/tizen-branding-default" revision="a18b947db2fd63f301f9fa9c0db6102154a5ffe9"/>
-  <project groups="common" name="platform/upstream/tizen-release" revision="684faaba004aa99c93364e6b912a5b828d78a274"/>
+  <project groups="common" name="platform/upstream/tizen-release" revision="8b5dc715c992b56c1d7188b1df236b6531b9efe6"/>
   <project groups="common" name="platform/upstream/tolua++" revision="4116ac1492c7779d04e7f121f929783b93ad6725"/>
   <project groups="common" name="platform/upstream/tree" revision="fbb5e1c8a984ffc57f19a2ef3c2b1e96857f6145"/>
   <project groups="common" name="platform/upstream/tzdata" revision="9f53b1293e01c86c91009e6eea4fae189fb7d091"/>
@@ -732,7 +732,7 @@
   <project groups="common" name="profile/ivi/GUPnP-DLNA" revision="fcf4110293c50f0299142bc9ef56f29266fb8d78"/>
   <project groups="common" name="profile/ivi/dLeyna" revision="bced9884aef8461ee81663ad3f99d3d083cbc8cc"/>
   <project groups="meta" name="scm/meta/build-config" revision="baa4999ff1365f520dd3b4fc7a99c195dca3273c"/>
-  <project groups="meta" name="scm/meta/gbs-config" revision="a6d9605e5038dc2c9eb247cfdebe036f906ad694">
+  <project groups="meta" name="scm/meta/gbs-config" revision="48e7937a580a7e5a60c8b4c21d8f4287409e22f8">
     <copyfile dest=".gbs.conf" src="gbs.conf"/>
   </project>
   <project groups="common" name="sdk/target/sdbd" revision="96c289f57c4ee93a1d974da7d095209a903a9b0a"/>
