@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <manifest>
-  <remote fetch="ssh://git@gitlab-art.globallogic.com.ar/cisco-tizen" name="cisco-tizen" review="https://gitlab-art.globallogic.com.ar/cisco-tizen"/>
-  <remote fetch="ssh://review.tizen.org/" name="tizen-gerrit" review="https://review.tizen.org/gerrit"/>
-  <remote fetch="git://github.com/cisco-open-source" name="tizen-github" review="git://github.com/cisco-open-source"/>
-  <remote fetch="ssh://glc@10.60.53.4:22/local/glc/git/Tizen" name="tizen-local" review="http://10.60.53.4/gitweb"/>
-  <remote fetch="ssh://glc@10.60.53.4:22/local/glc/git/Tizen" name="tizen-update"/>
-  
-  <default remote="tizen-local" revision="tizen-ua"/>
-  
+<remote fetch="ssh://review.tizen.org/" name="tizen-gerrit" review="https://review.tizen.org/gerrit"/>
+<remote fetch="git://github.com/cisco-open-source" name="tizen-github" review="git://github.com/cisco-open-source"/>
+<remote fetch="ssh://hekra@10.60.53.4:29418/Tizen" name="tizen-local" review="http://hekra@10.60.53.4/gitweb"/>
+<remote fetch="ssh://hekra@10.60.53.4:29418/Tizen" name="tizen-update"/>
+<default remote="tizen-local" revision="tizen-ua"/>
   <project groups="common" name="apps/core/preloaded/bt-syspopup" revision="332429a354f932ca981424bb84c8c0e937eb4f2d"/>
   <project groups="common" name="apps/core/preloaded/calculator" revision="90872234820acfa01a462f2f05e68c90ee9faace"/>
   <project groups="common" name="apps/core/preloaded/libslp-memo" revision="592a8d438d10026357c0596363ae5e6de2e40e5f"/>
@@ -21,18 +18,20 @@
   <project groups="common" name="apps/core/preloaded/ug-setting-homescreen-efl" revision="140c4f18f5a998e12e45daaf063bf430eea35c84"/>
   <project groups="common" name="apps/core/preloaded/usb-manager" revision="cf342ebd6330c699a7a5db20b4687bc4b3819332"/>
   <project groups="common" name="apps/core/preloaded/usb-syspopup" revision="dd573a0b6de8518bb7cf1e330234e754bddaf3da"/>
+  <project name="coap-extension" path="platform/framework/web/coap-extension" remote="tizen-github" revision="d7e555872d6d1ab14d12485d150621b57f7d9aa6"/>
   <project name="ethtool" path="platform/upstream/ethtool" remote="tizen-github" revision="20d4449e2019daa97623cffc2028b3870dfa630e"/>
   <project name="ffmpeg" path="platform/upstream/ffmpeg" remote="tizen-github" revision="e81dd26a670b7e5509c2e2ee7af06edcd4be381d"/>
   <project name="google-roboto-fonts" path="platform/upstream/google-roboto-fonts" remote="tizen-github" revision="efbbc27f83b7a6d1125fc9ea2389d5486b793d61"/>
-  <project name="kodi" path="platform/upstream/kodi" remote="tizen-github" revision="20c78df853830a32388af9e9925c75e13fa0a115"/>
+  <project name="kodi" path="platform/upstream/kodi" remote="tizen-github" revision="00300a1dc551cf765ea457b55b1f6602ad76fa2b"/>
   <project name="libass" path="platform/upstream/libass" remote="tizen-github" revision="edfda402bbeac53e1440d1e6e293b4f4d1c75fa1"/>
   <project name="libcdio" path="platform/upstream/libcdio" remote="tizen-github" revision="8428d3303693d770b7710749ee087c211cafb930"/>
+  <project name="libcoap" path="platform/upstream/libcoap" remote="tizen-github" revision="9603d3297a399722c1c198e024b951d9327a2510"/>
   <project name="libmicrohttpd" path="platform/upstream/libmicrohttpd" remote="tizen-github" revision="d98d2aa41cc16c55acb0d9bb3113cf622a7fbc40"/>
   <project name="libmodplug" path="platform/upstream/libmodplug" remote="tizen-github" revision="b23558935427e16821fc8c51c70fc7f7a34446bf"/>
   <project name="libmpeg2" path="platform/upstream/libmpeg2" remote="tizen-github" revision="5e8464c4011985d31a4042acea23f1023d8c7a75"/>
   <project groups="common" name="platform/adaptation/emulator/system-plugin-emulator" revision="5f03b4b95dd8061df120a05770c00e797cd4df18"/>
   <project groups="common" name="platform/adaptation/setup-scripts" revision="e0ee512691d8903ad41cf7b74ce9ea132899ef39"/>
-  <project groups="common" name="platform/appfw/app-installers" revision="959fe7a29ed106aec1a9000810b6212be461ab3d"/>
+  <project groups="common" name="platform/appfw/app-installers" revision="9891e47f8413b2e01615e7bc0d04b9d03781f1ee"/>
   <project groups="common" name="platform/core/api/app-manager" revision="a75ddb92d8ea619e4d8ebb953fe14ded11ba8214"/>
   <project groups="common" name="platform/core/api/application" revision="4383609dbe3f4b43240030d392bb1b81aef22b0f"/>
   <project groups="common" name="platform/core/api/audio-io" revision="5b5dea6b92d643e6e59ca2cb8887010f90c79d83"/>
@@ -100,7 +99,7 @@
   <project groups="common" name="platform/core/appfw/sppc" revision="a3cfb75871c9bccd1edc98903296f223e2537521"/>
   <project groups="common" name="platform/core/appfw/status" revision="2afa6a6447a70d20f63c67d5ae59cf26608146d9"/>
   <project groups="common" name="platform/core/appfw/tizen-platform-config" revision="451432aade897491698e5e6fe7d18cd00e28b718"/>
-  <project groups="common" name="platform/core/appfw/tizen-platform-wrapper" revision="ce8e849a4632d168e420065445dbdc43df061a8a"/>
+  <project groups="common" name="platform/core/appfw/tizen-platform-wrapper" revision="2fcb860a6d7dbf81b181959c9c69a8276713979b"/>
   <project groups="common" name="platform/core/appfw/ui-gadget-1" revision="ab0617e134e4a5bc233529b9c32fbd2467de1cd0"/>
   <project groups="common" name="platform/core/appfw/vconf-buxton" revision="4f8aa683eeb070c129dd3419e218bb24f61b5c55"/>
   <project groups="common" name="platform/core/appfw/vconf-internal-keys" revision="9d1f756ba5062a60eeea11cf0b2b7fd60461bcf5"/>
@@ -210,9 +209,9 @@
   <project groups="common" name="platform/core/uifw/libtbm" revision="11932fc0f5e364dfa3248afb45425fbccc073574"/>
   <project groups="common" name="platform/core/uifw/stt" revision="a53b10be804cea996e4a59315e48dc4e2dcb0e4c"/>
   <project groups="common" name="platform/core/uifw/tts" revision="8c242a73c16bd4d205854b39c7886c4f3c0bcf7a"/>
-  <project groups="common" name="platform/framework/web/crosswalk" revision="17561606f311ebe484cf59c392575860259d9443"/>
+  <project groups="common" name="platform/framework/web/crosswalk" revision="eec3b1db4f1f8d97f0065e4de1d330761e0deb76"/>
   <project groups="common" name="platform/framework/web/download-provider" revision="1ea0b1f2511a57e92dc3ed69e0ed3d737d48d9c9"/>
-  <project groups="common" name="platform/framework/web/tizen-extensions-crosswalk" revision="27e14ab50148bc2b748b33d09be0ef4cf1709bcb"/>
+  <project groups="common" name="platform/framework/web/tizen-extensions-crosswalk" revision="4e72d32828a4347e906ff80d5e7d09ab5960be75"/>
   <project groups="common" name="platform/framework/web/wrt-commons" revision="5ba6ba79cde39403be4b6c34ca33f3fb6abc9ae8"/>
   <project groups="common" name="platform/upstream/SDL" revision="4d89ad03125cc7ee9c9cadf07807dff9bf26980f"/>
   <project groups="common" name="platform/upstream/acl" revision="3d85f4077c72de04f46b1c526aa2c2cde71ccc21"/>
@@ -382,7 +381,7 @@
   <project groups="common" name="platform/upstream/iniparser" revision="42358b2425b18976b324e773bd780342f6f57fcd"/>
   <project groups="common" name="platform/upstream/intel-gpu-tools" revision="72d18b36ff54be8bb08fbb67fa025465d1c44add"/>
   <project groups="common" name="platform/upstream/intltool" revision="97ec869cac06ac7c217e9f012d175dc624ab5e3f"/>
-  <project groups="common" name="platform/upstream/iotivity" revision="bd92ecb1396212c01ea92b3388926005705e3627"/>
+  <project groups="common" name="platform/upstream/iotivity" revision="11a5bac5d0ebbd5234f8ab331547dbb91fd47fbd"/>
   <project groups="common" name="platform/upstream/iproute2" revision="9be16ded28cee6c6a822e9b5a30cf781e414c9a3"/>
   <project groups="common" name="platform/upstream/iptables" revision="7b236962701986a050ddb9bad288231f56bb5505"/>
   <project groups="common" name="platform/upstream/iputils" revision="b0210be24c39f27e7d5b8929dd667e4c562194c8"/>
@@ -639,7 +638,7 @@
   <project groups="common" name="platform/upstream/sysfsutils" revision="e9dfe180eb604903471f538bc4d15e8423754c3a"/>
   <project groups="common" name="platform/upstream/syslinux" revision="895eeefb13420b6621fbf5b6d8373ee6f2f4b32f"/>
   <project groups="common" name="platform/upstream/sysprof" revision="510029309bfa269fa9d58ebb7e3e93b7d1b2b432"/>
-  <project groups="common" name="platform/upstream/systemd" revision="bdf47ae6bd22cdeacb005251604325ca45c00403"/>
+  <project groups="common" name="platform/upstream/systemd" revision="6b4e02467370ec7600b22a4aec420fbad7f607cc"/>
   <project groups="common" name="platform/upstream/tar" revision="53b1109fe706ba91da70eefde51a391081112a74"/>
   <project groups="common" name="platform/upstream/tcl" revision="6c50087c21321e4e55290476f27ca187e516ac48"/>
   <project groups="common" name="platform/upstream/tcpdump" revision="09a0a046c9c1bd6df1834f4f4804753bd0788785"/>
@@ -704,7 +703,7 @@
   <project groups="common" name="platform/upstream/zypper" revision="4c8dd46f4c8d5801e6323c35c972ed8b8f1c48b5"/>
   <project groups="common" name="platform/upstream/zypper-plugin" revision="d6f3ebd459bc41f2638d4232ad323433d382f454"/>
   <project name="platform/vendor/alsa-broadcom-plugin" revision="710ec74ad495b9eaa39fbd5013cdbd1006957980"/>
-  <project name="platform/vendor/broadcom-refsw" revision="4c377faed42ef734f355012a70ae3ebae5420e89"/>
+  <project name="platform/vendor/broadcom-refsw" revision="242331de4bf557772279d0a750fc66bb48a9a9bf"/>
   <project name="platform/vendor/broadcom-stbgcc" revision="ae252cdc65e0748b7f0e08ff0ceac91e29f12477"/>
   <project name="platform/vendor/broadcom-stbgcc-eglibc" revision="4678304b3adbd9ae725e9237e4623227526d955e"/>
   <project name="platform/vendor/gst-plugins-brcm" revision="0129e2f3cf046abe6061dbb85648f1d4d8777335"/>
@@ -715,14 +714,14 @@
   <project name="platform/vendor/wayland-egl" revision="66eae888f3f71a90dec61b3c0821f88320082dc7"/>
   <project name="platform/vendor/weston-nexus-backend" revision="50e43e0ccdffe5dcf15dc5a9e9277fa1d8c902df"/>
   <project groups="prebuilts" name="pre-built/toolchain-arm" revision="aded215e332b91d288bdefb10a7533ef56c10fb1"/>
-  <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="5594b1e0dda3318c018e24f3605441fd9b110427"/>
+  <project groups="prebuilts" name="pre-built/toolchain-arm-bcm" revision="ef80f0101ed59fadcab61bb763bd4e663eb033a9"/>
   <project groups="prebuilts" name="pre-built/toolchain-x86" revision="0b633ba7e68ae627b5ced3fdc7a109ff2af5df79"/>
   <project groups="common" name="profile/common/desktop-skin" revision="8f7c94875b554c78a33513aeb2197fde8e301e7d"/>
-  <project groups="common" name="profile/common/kernel-common" revision="9c9196de59cbfc47d21e5f1e9941667e6d350b28"/>
-  <project groups="common" name="profile/common/meta" revision="4989ab9e5f1be35f31ead31c8069993a28953502"/>
+  <project groups="common" name="profile/common/kernel-common" revision="63ae5d0098e4f81a5923c57639fe3cfd0d2fc262"/>
+  <project groups="common" name="profile/common/meta" revision="8061eb9a5bd02c76cec1026e4f1ddf2dc4677987"/>
   <project groups="common" name="profile/common/system-installer" revision="9ad1297d81423bab75cd993148ec73b104074324"/>
   <project groups="common" name="profile/common/weston-common" revision="15a44961f3d4285537c4c210176138b4e0368ba1"/>
-  <project groups="common" name="profile/common/wrt-widgets" revision="882ca33360066d01c1236b0f974070952bdda3e4"/>
+  <project groups="common" name="profile/common/wrt-widgets" revision="1911f59f4095290503c303f603e6625017d084fc"/>
   <project groups="common" name="profile/common/x11-common" revision="f560dcac4375632fb76234c71730aa629a90866d"/>
   <project groups="common" name="profile/extras/i2c-tools" revision="b19d79bf9028f58e3e4226bd9410b59f19fe3c8d"/>
   <project groups="common" name="profile/generic/model/config" revision="75e684c6faa9fc986415c6b76993c75d433501fb"/>
@@ -732,7 +731,7 @@
   <project groups="common" name="profile/ivi/GUPnP-DLNA" revision="fcf4110293c50f0299142bc9ef56f29266fb8d78"/>
   <project groups="common" name="profile/ivi/dLeyna" revision="bced9884aef8461ee81663ad3f99d3d083cbc8cc"/>
   <project groups="meta" name="scm/meta/build-config" revision="baa4999ff1365f520dd3b4fc7a99c195dca3273c"/>
-  <project groups="meta" name="scm/meta/gbs-config" revision="48e7937a580a7e5a60c8b4c21d8f4287409e22f8">
+  <project groups="meta" name="scm/meta/gbs-config" revision="8b5d0d64ea0ea02770e1cd5b70f7ee43649a080d">
     <copyfile dest=".gbs.conf" src="gbs.conf"/>
   </project>
   <project groups="common" name="sdk/target/sdbd" revision="96c289f57c4ee93a1d974da7d095209a903a9b0a"/>
